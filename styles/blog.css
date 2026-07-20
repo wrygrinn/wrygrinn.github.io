@@ -1,0 +1,287 @@
+       @font-face {
+  font-family: 'OCRA';
+  src: url(https://wrygrinn.neocities.org/fonts/OCRA.woff);
+      }
+
+body {
+	color:#fff;
+	font-family: verdana;
+	font-size:11.5px;
+	line-height: 20px;
+	letter-spacing: 0.7px;
+	margin:0 auto;
+	background-size: 100px ;
+	background-color:#000000;
+}
+
+
+
+::selection {
+    background: #3c0000;
+	color: #f00; 
+	}
+
+a,
+a:link {
+	font-family: 'OCRA';
+	font-size: 13px;
+	letter-spacing: 0.5px;
+	color: #a6a6a6;
+	text-decoration: none;
+}
+
+
+
+h1 {
+	font-size: 22px;
+	font-family: 'times new roman';
+    font-family: ;
+    margin: 0;
+	color: #eee;
+	border-bottom: 1px dashed #d3d3d3;
+	padding-bottom: 9px;
+}
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #610000 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #610000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+h2 {
+	font-size: 12px;
+	margin: 0;
+	color: #ddd;
+	font-family: times new roman;
+    font-style: italic;
+	border-bottom: 1px dashed #d3d3d3;
+	border-top: 1px dotted #d3d3d3;
+}
+
+h1 a,
+h1 a:visited,
+h1 a:link {
+	text-decoration: none;
+	color: #fff;
+}
+
+h2 a,
+h2 a:visited,
+h2 a:link {
+	text-decoration: none;
+	padding: 10px;
+	line-height: 25px;
+	color: #fff;
+}
+
+h2 img {
+	margin-right: 5px;
+	border: 0;
+	padding: 3px;
+}
+
+
+i, b, u{
+	color: #eee;
+}
+
+
+div.wrap1 {
+	width: 787px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #000;
+	border: 1px solid #c80000;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+
+}
+
+div.wrap1 .wrap2 {
+	width: 856px;
+	border: 0px solid #c80000;
+	margin: 0 auto;
+	background-color: #111;
+	overflow: hidden;
+	padding: 3px;
+	
+}
+
+.logo {
+	font-family: 'OCRA';
+	font-size: 62px;
+}
+
+div.wrap2 .logo {
+	width:799px;
+	height:37px;
+	padding:0px;
+	margin:0 auto;
+	background-image: url("https://wrygrinn.neocities.org/banners/metal_1.png");
+	background-repeat:repeat-x;
+	background-position: right ;
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:30px;
+
+}
+
+div.logo .slogan {
+	font-size:27px;
+	font-weight:normal;
+}
+
+
+div.info, div.info1 {
+	width:816px;
+	line-height:24px;
+	background-color:#111;
+	color: #000;
+	padding-left:20px;
+	padding-right:20px;
+	background-repeat:repeat-x;
+}
+
+div.info1 { 
+	background-image:url();
+	float:left; 
+	border-top:1px solid #fff; 
+	background-color:#111;
+	color:#999;
+}
+
+div.info1 a, div.info1 a:link, div.info1 a:visited { color:#999; }
+
+div.info1 a:hover { color: #666; }
+
+div.wrap2 .leftpanel, div.wrap2 .rightpanel {
+	width:183px;
+	background-color:#111;
+	display: inline;
+	float:left ;
+	
+}
+
+
+
+div.wrap2 .mainpanel {
+	width:535px;
+	margin-top: -13px;
+	float:left;
+}
+
+div.leftpanel .header, div.rightpanel .header {
+	border-style: solid;
+	border-width: 1px;
+	border-top-left-radius: 9px;
+	border-top-right-radius: 9px;
+	background-repeat:no-repeat;
+	width:178px;
+	line-height:35px;
+	padding-left:20px;
+	color:#FFFFFF;
+	overflow:hidden;
+	font-weight:bold;
+}
+
+.text {
+	padding: 8px;
+	text-align: justify;
+}
+/* uplatnuje sa na left a right stlpec */
+.text img {
+	width: 100px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border: 0;
+	float: left;
+}
+
+.text_ {
+	padding: 22px;
+	width: 535px;
+	text-align: justify;
+	background-color: #111;
+}
+/* uplatnuje sa na hlavny stlpec */
+.text_ img {
+	vertical-align: middle;
+	border: 0;
+}
+
+span.divider {
+	border-bottom:1px dashed #333333; 
+	height: auto;
+	padding-bottom:5px; 
+	margin-bottom:5px; 
+	display:block;
+	
+}
+
+div.rightpanel .inquiry, div.leftpanel .inquiry {
+	padding:8px; 
+	text-align:justify;
+	height:218px;
+
+}
+
+.inquiry a, .inquiry a:link, .inquiry a:visited, .inquiry a:hover { text-decoration:none; }
+
+@keyframes glow {
+130% {
+text-shadow: 0 32 78px #880000;
+}
+
+36% {
+text-shadow: #e40000;
+}
+
+63% {
+text-shadow: 0 0 30px #e40000;
+}
+}
+
+@-webkit-keyframes glow {
+89% {
+text-shadow: 0 59 178px #cc0000;
+}
+
+35% {
+text-shadow: 0 0 78px #cc0000;
+}
+
+80% {
+text-shadow: 0 0 78px #e40000;
+}
+}
+
+#text1 {
+-webkit-background-clip: text;
+-webkit-text-fill-color: #bc0000;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-weight:bold;
+-webkit-animation: glow 2.8s linear infinite;
+-moz-animation: glow 2.8s linear infinite;
+-ms-animation: glow 2.8s linear infinite;
+-o-animation: glow 2.8s linear infinite;
+animation: glow 2.8s linear infinite;
+}
+
+-->

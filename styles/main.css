@@ -1,0 +1,430 @@
+
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #610000 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #610000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+        
+        
+      @font-face {
+  font-family: 'typewriter_________royal200normal';
+  src: url(https://wrygrinn.neocities.org/fonts/typewriter_________royal200normal-webfont.woff)
+      }
+  
+       @font-face {
+  font-family: 'rough_linen';
+  src: url(https://wrygrinn.neocities.org/fonts/rough_linen-webfont.woff);
+      }
+             @font-face {
+  font-family: 'cheapInk';
+  src: url(https://wrygrinn.neocities.org/fonts/cheapInk.woff);
+      }
+      @font-face {
+  font-family: 'Why-do-we-blink-so-frequently';
+  src: url(https://wrygrinn.neocities.org/fonts/Why-do-we-blink-so-frequently.woff);
+      }
+     @font-face {
+  font-family: 'times_and_times_again';
+  src: url(https://wrygrinn.neocities.org/fonts/times_and_times_again-webfont.woff);
+      }
+       @font-face {
+  font-family: 'silenthunteriii';
+  src: url(https://wrygrinn.neocities.org/fonts/silenthunteriii_font-webfont.woff);
+      }
+        
+             @font-face {
+  font-family: 'OCRA';
+  src: url(https://wrygrinn.neocities.org/fonts/OCRA.woff);
+      }
+        
+        a {
+            font-family: 'silenthunteriii';
+            text-decoration: none;
+            color: #a31919;
+            font-size: 16px;
+        }
+
+        a:hover{
+            color: #fff;
+            font-family: 'cheapInk';
+            font-size: 13px;
+        }
+        
+              li::marker {
+  content: '✁'; 
+  color: #e23009; 
+  font-size: 1.2em;
+
+
+      }
+
+::selection {
+    background: #3c0000;
+	color: #f00; 
+	}
+	
+
+
+      
+
+        html {
+            background-image: url(https://wrygrinn.neocities.org/backgrounds/field.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: top;
+            font-family: 'typewriter_________royal200normal';
+            letter-spacing: 1px;
+            color: #E3E3E3;
+            overflow: auto;
+            background-color: #000;
+            filter: contrast(1.2);
+        }
+
+        .mainframe {
+            width: 805px;
+            height: 751px;
+            padding: 5px;
+            margin-top: -2px;
+            position: sticky;
+            background-color: #000;
+            border: solid 0px #470000;
+
+        }
+                       .deco {
+                   pointer-events: none;
+                   float: right;
+                    position:absolute;
+                    left: 648px;
+                   top: 58px;
+        }
+        
+        
+
+        .header {
+            background-image: url(https://wrygrinn.neocities.org/banners/wrygrinnbanner3.gif);
+            height: 51px;
+            border-style: none;
+            background-size: cover;
+            background-position: center;
+            padding-left: 50px;
+            transition: 1s;
+            border-radius: 0px 1px 0px 0px;
+            overflow: hidden;
+            border-color: #280b0b;
+        }
+
+
+          p {
+           font-family: 'typewriter_________royal200normal';
+          }
+        
+
+        .topbar {
+            background-image: url();
+            background-position: top;
+            background-size: cover;
+            width: 108px;
+            padding: 5px;
+            margin-top: 0px;
+            height: 59px;
+            border-style: double;
+            font-family: ocr a;
+            font-size: 10px;
+            color: #d3dde7;
+            border-color: #470000;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        
+
+
+        .topbar p {margin: 0px;}
+
+        .topbar2 {
+            background-image: url();
+            background-position: top;
+            padding: 5px;
+            width: 655px;
+            margin-left: 128px;
+            margin-top: -77px;
+            position:sticky;
+            border-style: double;
+            font-family: ocr a;
+            font-size: 13px;
+            color: #d3dde7;
+            border-color: #470000;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .topbar2 p {margin: 0px;}
+
+        
+        .hi {
+            width: 106px;
+            height: 294px;
+            background: #000;
+            padding: 10px;
+            font-size: 15px;
+            border-style: none;
+            float: left;
+            background-image: url(https://wrygrinn.neocities.org/back-menu2.png);
+            text-align: center;
+        }
+
+        .title {
+            background-image: url(https://wrygrinn.neocities.org/bottom2.png);
+            height: 20px;
+            padding-left: 10px;
+            padding-top: 4px;
+            color: #fff;
+            border-style: solid;
+            border-width: thin;
+            font-family: 'cheapInk';
+            border-left-style: none;
+            border-color: #000;
+            margin-left: -5px;
+            font-size: 12px;
+            font-family: ;
+        }
+
+        li {
+  display: list-item;
+            margin-left: -23px;
+            font-family: 'typewriter_________royal200normal';
+        }
+
+        .about {
+            width: 460px;
+            margin-left: 7px;
+            margin-top: -20px;
+            height: 354.4px;
+            float: left;
+            position:sticky;
+            background: #000;
+            padding: 7px;
+            border-style: solid; 1px; 
+            font-size: 17px;
+            font-family: 'typewriter_________royal200normal';
+            border-color: #760000;
+            color: #eee;
+            font-size: 17px;
+            text-align: justify;
+
+        }
+
+        .about p {
+            font-family: 'typewriter_________royal200normal';
+            padding: 10px;
+            margin: 0px;
+            font-weight: normal;
+            line-height: 19px;
+            font-size: 13px;
+        }
+
+     
+
+  .box-sitemap {
+   background-color: #000;
+   width: 101px;
+   height: 318px;
+    position: sticky;
+   border: 1px solid #470000;
+   margin-top: 19px;
+    float: left;
+      margin-left: -1px;
+   padding: 12px;
+      background-image: url(https://wrygrinn.neocities.org/main/sitemap.png);
+      background-size: cover;
+}
+
+        .links {
+            height: 14px;
+            padding: 0px;
+            margin-top: 3px;
+            border-color: #280b0b;
+            background-image: url();
+        }
+        
+        .blinkies {
+            margin-left: -65px;
+            width: 95px;
+            height: 228px;
+            position: sticky;
+            float: left;
+            font-size: 14px;
+            margin-top:177px;
+         
+        }
+
+     
+
+        .bored {
+            border-style: solid;
+            border-color: #760000;
+            width: 203px;
+            float: left;
+            border-width: 1px;
+            margin-top: 10px;
+            position: sticky;
+            margin-left: 7px;
+            background: #000;
+            font-size: 14px;
+            padding-top: 0px;
+            padding: 5px;
+            height: 195px;
+        overflow-y: hidden;
+            overflow-x: hidden;
+           
+        }
+   
+        
+        .banners {
+            border-style: solid 1px;
+            border-color: #760000;
+            width: auto;
+            float: left;
+            border-width: 1px;
+            margin-top: 1px;
+            margin-left: 129px;
+            position: sticky;
+            background: transparent;
+            font-size: 14px;
+            padding-top: 0px;
+            padding: 5px;
+            height: auto;
+        overflow-y: hidden;
+            overflow-x: hidden;
+           
+        }
+        
+        .artshowcase {
+            border-style: solid;
+            border-color: #760000;
+            width: 236px;
+            float: left;
+            margin-left: 353px;
+            border-width: 1px;
+            margin-top: -207px;
+            position: sticky;
+            background: #000;
+            font-size: 14px;
+            font-family: 'typewriter_________royal200normal';
+            padding-top: 4px;
+            padding: 5px;
+            height: 195px;
+        overflow-y: auto;
+            overflow-x: hidden;
+           
+        }
+        
+      
+         .music {
+            border-style: solid;
+            border-color: #760000;
+            width: 173px;
+            float: left;
+            margin-left: 611px;
+            border-width: 1px;
+            margin-top: -103px;
+            position: sticky;
+            background: #000;
+            font-size: 14px;
+            padding-top: 4px;
+            padding: 5px;
+            height: 90px;
+            overflow-y: hidden;
+            overflow-x: auto;   
+        }
+      
+      .music:a {
+      color: #eee;
+      }
+      
+         .filler {
+            border-style: solid;
+            border-color: #760000;
+            width: 171px;
+            float: left;
+            position: sticky;
+            margin-left: 612px;
+            border-width: 1px;
+            margin-top: -359px;
+            font-size: 14px;
+            padding-top: 4px;
+            padding: 5px;
+            height: 239px;
+        overflow-y: scroll;
+            overflow-x: hidden;
+           
+        }
+      
+     
+      
+        .blinkies {
+            border-style: solid;
+            border-color: #760000;
+            width: 109px;
+            float: left;
+            margin-left: -603px;
+            margin-top: 20px;
+            border-width: 1px;
+            background: #000;
+            font-size: 14px;
+            padding: 5px;
+            height: 214px;
+            overflow-y: hidden;
+ 
+        }
+
+      .stupidshit {
+            border-style: solid;
+            border-width: 1px;
+            border-color: #760000;
+            width: 182px;
+            float: left;
+            position: sticky;
+            margin-top: -671px;
+            background: #000;
+            font-size: 14px;
+            margin-left: 617px;
+            height: 290px;
+            text-align: center;
+        }
+                .back {
+            background-position: top;
+            background-image: url(https://wrygrinn.neocities.org/bottom2.png);
+            background-size: cover;
+            padding: 0px;
+            position: flex;
+            margin-top: -35px;
+            border-color: #000;
+            float: left;
+        }
+        .footer {  
+            margin-top: -81px;
+            font-family: 'times new roman';
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+}
+
+
+    
+                 }
+      

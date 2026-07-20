@@ -1,0 +1,222 @@
+body {
+    background: 'transparent';
+    font-family: Arial, Verdana, sans-serif;
+  background-image: url(darkchek.jpg);
+  background-size: 255px;
+}
+p {
+    color: #fff;
+}
+a {
+    color: #f00;
+}
+.left.col {
+    background: linear-gradient(#535353 0%, #000 2%);
+    border-radius: 5px 5px 0px 0px;
+    border: 0px;    
+    padding: 5px;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+    position: relative;
+    right: 4px;
+}
+.left .heading {
+    background: linear-gradient(#535353 0%, #000 60%) !important;
+    box-shadow: inset 0px 0px 5px 1px #535353;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: 1px solid #808080;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+    padding: 3px !important;
+}
+.contact .heading {
+    background: none !important;
+    border: none !important;
+    box-shadow: none;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+}
+.profile .table-section {
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #808080;
+}
+.details-table td {
+    background: linear-gradient(#535353 0%, #000 60%) !important;
+    box-shadow: inset 0px 0px 0px 1px #808080, inset 0px 0px 5px 1px #535353, #000 1px 1px 10px 2px;;
+    border-radius: 10px 0px;
+    border: 0px;
+    padding-left: 5px !important;
+    color: #ffffff !important;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px; 
+}
+.profile .contact {
+    border-radius: 5px 5px 0px 0px;
+    border: none;  
+    background: linear-gradient(#535353 0%, #000 20%);
+}
+.right.col {
+    background: linear-gradient(#535353 0%, #000 2%);
+    border-radius: 5px 5px 0px 0px;
+    border: 0px;
+    padding: 5px;
+    position: relative;
+    left: 4px;
+    margin-left: 5px;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+}
+main {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    background: black;
+    box-shadow: inset 0px 0px 0px 1px #808080, inset 0px 0px 10px 2px #535353;
+}
+nav .top {
+    margin-top: 10px;
+    border-radius: 5px;
+    background: linear-gradient(#535353 0%, #000 69%);
+    box-shadow: inset 0px 0px 0px 1px #808080, inset 0px 0px 10px 2px #535353;
+    border: 0px;
+    padding: 4px;
+}
+nav .links {
+    background: linear-gradient(#535353 0%, #222 60%) !important;
+    box-shadow: inset 0px 0px 0px 1px #808080, inset 0px 0px 5px 1px #535353, #000 1px 1px 10px 2px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    border: 0px;
+    padding-left: 10px !important;
+    color: #ffffff !important;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+    padding: 5px;
+    position: relative;
+    gap: 5px;
+    justify-content: center;
+}
+nav .links a {
+    text-shadow: 1px 1px 0px #000;
+}
+nav .links a:hover {
+    color: #f00;
+    font-family: 'green_energy';
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #000;
+}
+.top .right a {
+    text-shadow: 1px 1px 0px #000;    
+}
+.logout-btn {
+    text-shadow: 1px 1px 0px #000 !important;     
+}
+body &gt; div.container &gt; nav &gt; ul &gt; li.special {
+    display: none;
+}
+body &gt; div.container &gt; nav &gt; ul &gt; li:nth-child(12) {
+    display: none;
+}
+body &gt; div.container &gt; nav &gt; ul &gt; li:nth-child(3) {
+    display: none;
+}
+body &gt; div.container &gt; nav &gt; ul &gt; li:nth-child(13) {
+    border: none;
+}
+nav li {
+    font-size: 0pt;
+    padding-right: 5px;
+    border-right: 2px ridge #555555;
+}
+.right .heading {
+    background: linear-gradient(#535353 0%, #000 60%) !important;
+    box-shadow: inset 0px 0px 0px 1px #808080, inset 0px 0px 5px 1px #535353, #000 1px 1px 10px 2px;;
+    border-radius: 50px 0px;
+    border: 0px;
+    padding-left: 10px !important;
+    color: #ffffff !important;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;    
+}
+.comments-table {
+  
+  ::-moz-selection { /* Code for Firefox */
+  color: #FF0F0F;
+  background: #000;
+}
+
+::selection {
+  color: #FF0F0F;
+  background: #000;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+    border: 0px;
+}
+.comments-table td {
+    border: 0px;
+    background: linear-gradient(#535353 0%, #000 20%) !important;
+    border-radius: 5px 5px 0px 0px;
+    border: 0px;
+    padding: 5px;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+    top: -32px;
+}
+.url-info {
+    border: none !important;
+    background: linear-gradient(#535353 0%, #000 40%);
+    border-radius: 5px 5px 0px 0px;
+    border: 0px;
+    padding: 5px;
+    color: #ffffff;
+    text-shadow: 2px 1px 0px #000;
+    font-size: 13px;
+    top: -32px;
+}
+.comments-table .pfp-fallback {
+    border: 2px ridge #555555;
+}
+.person .pfp-fallback {
+    border: 2px ridge #555555;    
+}
+.profile-pic .pfp-fallback {
+    border: 2px ridge #555555;     
+}
+#comments &gt; div.inner &gt; table &gt; tbody &gt; tr &gt; td:nth-child(1) {
+    background: none;
+}
+.comment-replies {
+    border: none;
+    border-top: 2px ridge #555555;
+}
+footer {
+    background: none;
+}

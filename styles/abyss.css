@@ -1,0 +1,191 @@
+/** BASIC */
+
+body {
+	background-color: #000;
+	margin: 10px 0;
+	font: times;
+	color: #a5a2a2;
+	cursor: url(http://www.rw-designer.com/cursor-download.php?id=12038), auto;
+}
+
+
+<!--end of cursor-->
+h1 {
+	font-family: times;
+	font-weight: 105;
+	color: #CC6600;
+}
+
+p {
+	font-family: times;
+	font-size: 14px;
+}
+
+h2,h3,h4,h5 {
+	font-family: times;
+	color: #e68282;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+a {
+	text-decoration: none;
+	color: #CC0E00;
+}
+
+
+a:visited{
+	color: #a5a2a2;
+}
+
+a:hover {
+	border: none;
+	color: #CC6600;
+	cursor: crosshair;
+}
+::selection {
+    background: #230000;
+	color: #f00; }
+	
+/** HEADER */
+
+#header {
+	width: 700px;
+	height: 102px;
+	margin: 0 auto;
+}
+
+#header h1 {
+	margin: 0;
+	padding: 17px 8px 0 13px;
+	letter-spacing: -0.04em;
+	color: #e68282;
+}
+
+#header h2 {
+	display: none;
+}
+
+/** MENU */
+
+#menu {
+	width: 700px;
+	margin: -2.25em auto 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding: 0 10px 0 11px;
+	border: none;
+	border-left: 1px solid #83895C;
+	color: #83895C;
+}
+
+#menu a:hover {
+	color: #cc7100;
+}
+
+#menu .first a {
+	border: none;
+}
+
+#menu .first a:hover {
+	color: #cc7100;
+}
+
+li {
+list-style-type: square;
+color: #cc7100;
+}
+
+/** CONTENT */
+
+#content {
+	border: solid 6px #000;
+	  border-image: url(https://wrygrinn.neocities.org/borders/fril.gif) 30 round;
+	width: 720px;
+	margin: 0 auto;
+	background-image: url(https://wrygrinn.neocities.org/backgrounds/chainlink.jpg);
+	background-size: 112px;
+
+}
+
+#content * {
+	line-height: 140%;
+}
+
+#columnA {
+	float: left;
+	width: 440px;
+	padding: 25px 20px 0 30px;
+}
+
+#columnB {
+	float: right;
+	width: 200px;
+	padding: 25px 20px 0 10px;
+	background-image: url(https://wrygrinn.neocities.org/backgrounds/chainlink.jpg);
+	background-size: 112px;
+}
+
+#columnB * {
+	color: #a5a2a2;
+}
+
+#columnB ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: square;
+}
+
+#columnB a {
+	color: #CC6600;
+}
+
+#columnB a:hover {
+	color: #CC0000;
+}
+
+/** FOOTER */
+
+#footer, footer p {
+	width: 754px;
+	height: 12px;
+	margin: 0 auto;
+	font-family:'times' 12px;
+	font-size: 12px;
+	margin-top:-25px;
+	padding: 35px 0 0 20px;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #9b1254 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #9b1254;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }

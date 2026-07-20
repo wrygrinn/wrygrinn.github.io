@@ -1,0 +1,69 @@
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 13px;
+}
+
+a {
+    color: #fff;
+  font-size: 14px;
+    text-decoration: underline dotted;
+}
+a:hover {
+    color: #bbb;
+    text-decoration: none;
+}
+
+
+body {
+    color: #fff;
+    font-family: verdana;
+    background-color: #000;
+}
+
+
+
+/** LINKS **/
+#links {
+    border: 1px dotted #ccc;
+    width: 100%;
+     border-spacing: 0;
+}
+
+#links th {
+    background: linear-gradient(45deg,#000 20%, rgb(25, 25, 25) 11%, #fff 70%);
+    color: #000;
+}
+
+#links td {
+  
+    border-bottom: 1px dotted #ccc;
+    border-right: 1px dotted #ccc;
+    padding: 2px;
+}
+
+#links td:nth-child(even){
+    width: 250px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+
+  ::selection {
+    background: #f00;
+    color: #000;
+  }

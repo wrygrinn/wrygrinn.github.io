@@ -1,0 +1,189 @@
+     @font-face {
+  font-family: 'OCRA';
+  src: url(https://wrygrinn.neocities.org/fonts/OCRA.woff);
+      }
+
+div#menu .menu {
+		height: 31px;
+		width: 880px;
+		font-family: 'OCRA';
+		background-image: url('https://wrygrinn.neocities.org/dividers/distressed-bar1.png');
+		background-size: 957px;
+		background-repeat: repeat-x;
+	}
+	
+	*> div#menu .menu { 		
+font-family: 'OCRA';
+margin-top: -14px; }
+	
+	div#menu .menu ul {
+		padding: 0;
+		font-family: 'OCRA';
+		list-style: none;
+		line-height: normal;
+		margin-left: 4px;
+	}
+	
+	*> div#menu .menu ul { 		
+font-family: 'OCRA';
+margin-left:0; }
+	
+	div#menu .menu li {
+		display: inline;
+		font-family: 'OCRA';
+
+	}
+	
+	div#menu li span.left {
+		background-image:url();
+		background-repeat:no-repeat;
+		width: 5px;
+		height: 64px;
+		font-family: 'OCRA';
+		overflow: visible;
+		position: relative;
+		bottom:15px;
+		vertical-align: bottom;
+		visibility:visible;
+		display:block;
+		padding-top: 8px;
+		margin-bottom: -32px;
+		float:left;
+	}
+	
+	div#menu li span.hlavny {
+		background-repeat:repeat-x;
+		height: 66px;
+		font-family: 'OCRA';
+		overflow: visible;
+		position: relative;
+		bottom:15px;
+		vertical-align: bottom;
+		visibility:visible;
+		display:block;
+		float: left;
+		padding-top: 8px;
+		margin-bottom: -35px;
+		text-align: center;
+		text-decoration: none;
+		padding-left:40px;
+		padding-right:40px;
+	}
+	
+	
+	div#menu li span.hlavny a, div#menu li span.hlavny a:visited, div#menu li span.hlavny a:link { 		font-family: 'OCRA';
+color:#fff; font-weight: bold; }
+	
+	div#menu li span.hlavny_ {
+		height: 64px;
+		overflow: visible;
+		position: relative;
+		font-family: 'OCRA';
+		bottom:15px;
+		vertical-align: bottom;
+		visibility:visible;
+		display:block;
+		float: left;
+		padding-top: 8px;
+		margin-bottom: -32px;
+		text-align: center;
+		text-decoration: none;
+		padding-left:45px;
+		padding-right:45px;
+	}
+	
+	div#menu li span.right {
+		background-image:url();
+		background-repeat:no-repeat;
+		width: 6px;
+		font-family: 'OCRA';
+		height:64px;
+		overflow: visible;
+		position: relative;
+		bottom:15px;
+		vertical-align: bottom;
+		visibility:visible;
+		display:block;
+		padding-top: 15px;
+		margin-bottom: -32px;
+		float: left;
+	}
+	
+	div#menu .menu a, div#menu .menu a:visited, div#menu .menu a:active {
+		color:#fff;
+		display:block;
+		float: left;
+		font-family: 'OCRA';
+		padding: 16px 0 0 0;
+		margin:0;
+		text-align: center;
+		text-decoration: none;
+	}
+
+	div#menu .menu img {
+		display:block;
+		float: left;
+		margin: 0px;
+		font-family: 'OCRA';
+		margin-bottom: -16px;
+		padding: 12px 0 0 0;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	div#menu .menu a:hover { 		font-family: 'OCRA';
+color:#f00; font-weight: bold; font-size: 13px; letter-spacing: 1px; text-decoration:underline; }
+
+/* categories */
+
+ul#categories {
+	width:200px;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'OCRA';
+	list-style: none;
+	font-size: 11px;
+}
+
+ul#categories li {
+	background: radial-gradient( #444, #222);
+	display: block;
+	padding: 0px;
+	font-family: 'OCRA';
+	line-height: 30px;
+	border-bottom: 1px #111 solid;
+	border-top: 1px solid #000;
+	height: 30px;
+	margin-top: -2px; 
+	margin-bottom: -2px;
+}
+
+
+
+*> ul#categories li { margin-top: 0px; margin-bottom: 0px; }
+
+ul#categories li.selected {
+	font-family: 'OCRA';
+	text-decoration: none; 
+	background-color:#333;
+}
+
+ul#categories li a {
+	display: block;
+	overflow: hidden;
+	padding: 0px 0px 0px 40px;
+	font-family: 'OCRA';
+	line-height: 30px;
+	text-decoration: none;
+	font-size: 11px;
+	color: #bbb;
+}
+ul#categories li a:hover { 
+	font-family: 'OCRA';
+	text-decoration: underline; 
+	background-color:#b4b4b4;
+	background: radial-gradient( #666, #222);	
+}
+
+-->
