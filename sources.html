@@ -1,0 +1,465 @@
+<html><head>
+
+<title>Sources</title>
+<link rel="icon" type="image/x-icon" href="/gifs/scissorss.gif">
+<head>
+
+
+
+<style>
+  ::-webkit-scrollbar {
+
+    width: 16px
+
+  }
+
+
+
+  ::-webkit-scrollbar:horizontal {
+
+    height: 17px
+
+  }
+
+
+
+  ::-webkit-scrollbar-corner {
+
+    background: #eee
+
+  }
+
+
+
+  ::-webkit-scrollbar-track:vertical {
+
+    background: linear-gradient(90deg, #e5e5e5, #f0f0f0 20%)
+
+  }
+
+
+
+  ::-webkit-scrollbar-track:horizontal {
+
+    background: linear-gradient(180deg, #e5e5e5, #f0f0f0 20%)
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb {
+
+    background-color: #eee;
+
+    border: 1px solid #8e8f8f;
+
+    border-radius: 3px;
+
+    box-shadow: inset 0 -1px 1px hsla(0, 0%, 100%, .8), inset 0 1px 1px #fff
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb:vertical {
+
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADrSURBVChTTc5LboJQGAXguyoCu4ERCzAGlRk7UOwGWIDh0s4M4kxb06RSq/jAB6AxJkJ4lTDrue3AnvyzP+fLId+/yfM8juP7PQmCCOf7B3e+ZD+O40RRVFW12VQUpd3r9U3T2m4OpKoqWZYNwzBZLEqfh0N7NnvfrPcEWlEUWZb9mWF4Ph6D0ylcLbfM5HkeJrhGA2hb15/QXnv+w7RYXsDatjOdvnmrHSnLEizMNE2v11sUXQBCnn98kbquBUGQJAlmq9WB2e3qg4HJdqKkaRql1HGc0WgMcDJ5dd0F24kediZJ8t/ELT69H+8py0CYSIO5AAAAAElFTkSuQmCC") 50% no-repeat, linear-gradient(90deg, #eee 45%, #ddd 0, #bbb)
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb:horizontal {
+
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADcSURBVChTNZBLqoUwEEQrURQUxZGCvy24ACfiityJi7tv8GauQoPxk5tquA2RQ9vVVYk6z9NZaxFFEe77htYazjk8z4MwDIVZ+rourOuKaZrwvi+WZcE8z1BKCbPPCjk4DAO2bRP1OI7wLiL6Mbd7J408z1GWpQwWRYGqqiQG+03TgMu0MacfUN4qANmn8UOv9MjW3sKaSm7iIdOSlziOQ3LScd93aPonSYK6riVLlmVo21aYfVqzND9pmqLrOlGT+76XbcxLZkb19/l3fEP+oF0cx8KMEASBsDEGX2/CgZCHkg+8AAAAAElFTkSuQmCC") 50% no-repeat, linear-gradient(180deg, #eee 45%, #ddd 0, #bbb)
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb:hover:vertical {
+
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADrSURBVChTTc5LboJQGAXguyoCu4ERCzAGlRk7UOwGWIDh0s4M4kxb06RSq/jAB6AxJkJ4lTDrue3AnvyzP+fLId+/yfM8juP7PQmCCOf7B3e+ZD+O40RRVFW12VQUpd3r9U3T2m4OpKoqWZYNwzBZLEqfh0N7NnvfrPcEWlEUWZb9mWF4Ph6D0ylcLbfM5HkeJrhGA2hb15/QXnv+w7RYXsDatjOdvnmrHSnLEizMNE2v11sUXQBCnn98kbquBUGQJAlmq9WB2e3qg4HJdqKkaRql1HGc0WgMcDJ5dd0F24kediZJ8t/ELT69H+8py0CYSIO5AAAAAElFTkSuQmCC") 50% no-repeat, linear-gradient(90deg, #e5f4fd 45%, #b3e0f9 0);
+
+    border-color: #3c7fb1
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb:hover:horizontal {
+
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADcSURBVChTNZBLqoUwEEQrURQUxZGCvy24ACfiityJi7tv8GauQoPxk5tquA2RQ9vVVYk6z9NZaxFFEe77htYazjk8z4MwDIVZ+rourOuKaZrwvi+WZcE8z1BKCbPPCjk4DAO2bRP1OI7wLiL6Mbd7J408z1GWpQwWRYGqqiQG+03TgMu0MacfUN4qANmn8UOv9MjW3sKaSm7iIdOSlziOQ3LScd93aPonSYK6riVLlmVo21aYfVqzND9pmqLrOlGT+76XbcxLZkb19/l3fEP+oF0cx8KMEASBsDEGX2/CgZCHkg+8AAAAAElFTkSuQmCC") 50% no-repeat, linear-gradient(180deg, #e5f4fd 45%, #b3e0f9 0);
+
+    border-color: #3c7fb1
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb:active:vertical {
+
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADrSURBVChTTc5LboJQGAXguyoCu4ERCzAGlRk7UOwGWIDh0s4M4kxb06RSq/jAB6AxJkJ4lTDrue3AnvyzP+fLId+/yfM8juP7PQmCCOf7B3e+ZD+O40RRVFW12VQUpd3r9U3T2m4OpKoqWZYNwzBZLEqfh0N7NnvfrPcEWlEUWZb9mWF4Ph6D0ylcLbfM5HkeJrhGA2hb15/QXnv+w7RYXsDatjOdvnmrHSnLEizMNE2v11sUXQBCnn98kbquBUGQJAlmq9WB2e3qg4HJdqKkaRql1HGc0WgMcDJ5dd0F24kediZJ8t/ELT69H+8py0CYSIO5AAAAAElFTkSuQmCC") 50% no-repeat, linear-gradient(90deg, #cee9f8 45%, #86c6e8 0);
+
+    border-color: #6d91ab
+
+  }
+
+
+
+  ::-webkit-scrollbar-thumb:active:horizontal {
+
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADcSURBVChTNZBLqoUwEEQrURQUxZGCvy24ACfiityJi7tv8GauQoPxk5tquA2RQ9vVVYk6z9NZaxFFEe77htYazjk8z4MwDIVZ+rourOuKaZrwvi+WZcE8z1BKCbPPCjk4DAO2bRP1OI7wLiL6Mbd7J408z1GWpQwWRYGqqiQG+03TgMu0MacfUN4qANmn8UOv9MjW3sKaSm7iIdOSlziOQ3LScd93aPonSYK6riVLlmVo21aYfVqzND9pmqLrOlGT+76XbcxLZkb19/l3fEP+oF0cx8KMEASBsDEGX2/CgZCHkg+8AAAAAElFTkSuQmCC") 50% no-repeat, linear-gradient(180deg, #cee9f8 45%, #86c6e8 0);
+
+    border-color: #6d91ab
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:horizontal:end:decrement,
+
+  ::-webkit-scrollbar-button:horizontal:start:increment,
+
+  ::-webkit-scrollbar-button:vertical:end:decrement,
+
+  ::-webkit-scrollbar-button:vertical:start:increment {
+
+    display: none
+
+  }
+
+
+
+  ::-webkit-scrollbar-button {
+
+    border: 1px solid transparent
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:vertical {
+
+    height: 17px
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:vertical:start {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik04IDZIN3YxSDZ2MUg1djFINHYxaDdWOWgtMVY4SDlWN0g4VjZaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(90deg, #e5e5e5, #f0f0f0 20%)
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:vertical:end {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik0xMSA2SDR2MWgxdjFoMXYxaDF2MWgxVjloMVY4aDFWN2gxVjZaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(90deg, #e5e5e5, #f0f0f0 20%)
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:horizontal {
+
+    width: 16px
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:horizontal:start {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik05IDRIOHYxSDd2MUg2djFINXYxaDF2MWgxdjFoMXYxaDFWNFoiIGZpbGw9InVybCgjYSkiLz48L3N2Zz4="), linear-gradient(180deg, #e5e5e5, #f0f0f0 20%)
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:horizontal:end {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik03IDRINnY3aDF2LTFoMVY5aDFWOGgxVjdIOVY2SDhWNUg3VjRaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(180deg, #e5e5e5, #f0f0f0 20%)
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:hover {
+
+    background-color: #eee;
+
+    border-color: #8e8f8f;
+
+    border-radius: 3px;
+
+    box-shadow: inset 0 -1px 1px hsla(0, 0%, 100%, .8), inset 0 1px 1px #fff
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:hover:vertical {
+
+    height: 17px
+
+  }
+
+
+
+::-webkit-scrollbar-button:hover:vertical:start {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik04IDZIN3YxSDZ2MUg1djFINHYxaDdWOWgtMVY4SDlWN0g4VjZaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(90deg, #e5f4fd 45%, #b3e0f9 0);
+
+    border-color: #3c7fb1
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:hover:vertical:end {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik0xMSA2SDR2MWgxdjFoMXYxaDF2MWgxVjloMVY4aDFWN2gxVjZaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(90deg, #e5f4fd 45%, #b3e0f9 0);
+
+    border-color: #3c7fb1
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:hover:horizontal {
+
+    width: 16px
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:hover:horizontal:start {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik05IDRIOHYxSDd2MUg2djFINXYxaDF2MWgxdjFoMXYxaDFWNFoiIGZpbGw9InVybCgjYSkiLz48L3N2Zz4="), linear-gradient(180deg, #e5f4fd 45%, #b3e0f9 0);
+
+    border-color: #3c7fb1
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:hover:horizontal:end {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik03IDRINnY3aDF2LTFoMVY5aDFWOGgxVjdIOVY2SDhWNUg3VjRaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(180deg, #e5f4fd 45%, #b3e0f9 0);
+
+    border-color: #3c7fb1
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active {
+
+    background-color: #eee;
+
+    border-color: #8e8f8f;
+
+    border-radius: 3px;
+
+    box-shadow: inset 0 -1px 1px hsla(0, 0%, 100%, .8), inset 0 1px 1px #fff
+
+  }
+
+
+
+  .contact,
+
+  .contact .inner,
+
+  nav,
+
+  nav .links li a:not([title~=Notifications]) {
+
+    box-shadow: 0 0 0px .0px #fff
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active:vertical {
+
+    height: 17px
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active:vertical:start {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik04IDZIN3YxSDZ2MUg1djFINHYxaDdWOWgtMVY4SDlWN0g4VjZaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(90deg, #cee9f8 45%, #86c6e8 0);
+
+    border-color: #6d91ab
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active:vertical:end {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik0xMSA2SDR2MWgxdjFoMXYxaDF2MWgxVjloMVY4aDFWN2gxVjZaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(90deg, #cee9f8 45%, #86c6e8 0);
+
+    border-color: #6d91ab
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active:horizontal {
+
+    width: 16px
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active:horizontal:start {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik05IDRIOHYxSDd2MUg2djFINXYxaDF2MWgxdjFoMXYxaDFWNFoiIGZpbGw9InVybCgjYSkiLz48L3N2Zz4="), linear-gradient(180deg, #cee9f8 45%, #86c6e8 0);
+
+    border-color: #6d91ab
+
+  }
+
+
+
+  ::-webkit-scrollbar-button:active:horizontal:end {
+
+    background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTciIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIxMDAlIiB4Mj0iMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6IzMzMztzdG9wLW9wYWNpdHk6MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6I2FhYTtzdG9wLW9wYWNpdHk6MSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik03IDRINnY3aDF2LTFoMVY5aDFWOGgxVjdIOVY2SDhWNUg3VjRaIiBmaWxsPSJ1cmwoI2EpIi8+PC9zdmc+"), linear-gradient(180deg, #cee9f8 45%, #86c6e8 0);
+
+    border-color: #6d91ab
+
+  }</style>
+
+<style type="text/css">* {cursor: url(https://cur.cursors-4u.net/smilies/smi-3/smi211.cur), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/10/13/trollface-problem-coolface-rage-face-comics.html" target="_blank" title="Trollface / Problem? / Coolface  - Rage Face Comics"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Trollface / Problem? / Coolface  - Rage Face Comics" style="position:absolute; top: 0px; right: 0px;" /></a>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://wrygrinn.neocities.org/styles/1.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <tr style="background: black">
+  <div align="center">
+    <h1>RESOURCES</h1>
+    
+    <p><i>I've compiled this list not only for myself but also to help others so they don't have to<br> go through the agonizing amount of searching I had to do to find some of these.</i></p><br>
+      
+  <a style="font-size: 16px;" href="/abyss.html">BACK</a>
+    <br>
+    <br>
+    <bR>
+<div style="width:400px;text-align:left">
+        
+    <table id="links">
+  <tbody><tr>
+    <th colspan="2">Web design</th>
+      
+  </tr>
+   <tr>
+    <td><a href="https://www.cursors-4u.com/">Cursors</a></td>
+    <td>A large selection of cursors of all styles</td>
+  </tr>
+         <tr>
+    <td><a href="https://www.createblog.com/">Createblog</a></td>
+    <td>This is where I got a lot of my layouts from.
+        <br>They have a large selection
+                dating all the way from 2004-2012.</td>
+  </tr>
+
+  <tr>                
+    <td><a href="https://botoxparty.github.io/XP.css/">Old Windows style CSS</a></td>
+    <td>If you want to replicate the older designs of Windows such as Windows XP or 98. <br><br>
+        The buttons also have the ability to funciton!</td>
+  </tr>
+  
+   <tr>                
+    <td><a href="https://wrygrinn.neocities.org/windows7-scrollbar.css">Windows 7 or Vista scrollbar</a></td>
+    <td>CSS for the Windows 7 esque scrollbar I originally got from this <a href="https://blog.spacehey.com/entry?id=1567278" style="color: #F5E727">blog</a> post on Spacehey.</td>
+  </tr>
+  
+   <td><a href="https://grid.layoutit.com/">Interactive CSS grid</a></td>
+    <td>Interactive CSS layout grid. You recive the code and apply it to your project.</td>
+  </tr>
+  
+    <td><a href="https://maphren.neocities.org/blog/posts/19-05-2024-surfing-waves-rss-guide">Status cafe widget work-around</a></td>
+    <td>As of 2024, neocities no longer accepts the status.cafe widget code (for some reason)</td>
+  </tr>
+  
+     <td><a href="https://plantillashtmlgratis.com/en/todas-las-plantillas/plantilla/free-html-css-template-opentech/">Xhtml 1.0 templates</a></td>
+    <td>The site is a bit of a pain to navigate but they have GREAT options, especially if you're going for 
+    a mid-late 2000's or early 2010's look.
+    <Br><bR> You can scroll through these as they're difficult to get to on the site itself due to how old these are.<Br><br></td>
+  </tr>
+    
+     <td><a href="https://phcode.dev/">Phoenix Code</a></td>
+    <td>This is pretty useful as a demo/testing ground and has been benificial in practicing (I am a beginner after all).<Br><br></td>
+  </tr>
+  
+  
+
+          <th colspan="2">Webamp stuff</th>
+      <tr>
+          <td><a href="https://assets.spacecatsamba.com/misc/webamp-examples/index-stream.html">Webamp base</a></td>
+      <td>GO TO SOURCE CODE</td>
+  </tr>
+      
+        <td><a href="https://skins.webamp.org/">Winamp Skin Museum</a></td>
+      <td>A large collection of Winamp skins to choose from</td>
+  </tr>
+    
+    <td><a href="https://sambaneko.neocities.org/webamp">How to put on skins</a></td>
+      <td>This helped a lot with applying webamp skins without having to use supporter, since Neocities doesn't normally support wz files.</td>
+  </tr>
+  
+    
+  
+    <th colspan="2">Graphics</th>
+  
+  <tr>
+    <td><a href="https://www.glitter-graphics.com/">Glitter-graphics</a></td>
+    <td>A large selection of graphics, blinkies, icons and backgrounds.</td>
+  </tr>
+    <tr>
+          <td><a href="https://www.3dgifmaker.com/360Spin#google_vignette">Original Myspace graphics recources</a></td>
+    <td>This blog post helped me significantly in the development of my sites! </td>
+  </tr>
+    <tr>                
+    <td><a href="https://cs.gettysburg.edu/~duncjo01/archive/patterns/angelfire/backgrounds1.html">Tile backgrounds</a></td>
+    <td>Tile background designs archived from Angelfire</td>
+  </tr>
+    <tr>
+    <td><a href="https://gifcities.org/">GifCities</a></td>
+    <td>Various gifs that anyone can use archvied from the GeoCities days</td>
+  </tr>
+    <td><a href="https://www.deviantart.com/search?q=stamps">Stamps</a></td>
+    <td>If you're looking for or planning on making 99x56 stamps, deviantart has everything you need and there are
+        plenty of stamps to choose from!</td>
+  </tr>
+           
+         
+             <td><a href="https://www.3dgifmaker.com/360Spin#google_vignette">3D gif maker</a></td>
+    <td>You can turn an image into a 3d gif. This is where I get my little character chibis to spin.</td>
+        </tr>
+</tbody></table>
+        
+      </div>
+      </div>
+   <br>
+  <center>
+    <footer>&#9786; Wrygrinn &#9786; ||
+&copy; 2026</footer>
+    <br>
+</centeR>
+
+</body></html>
+
