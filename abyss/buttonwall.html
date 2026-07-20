@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>abyss</title>
+<link rel="icon" type="image/x-icon" href="/gifs/scissorss.gif">
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="https://wrygrinn.neocities.org/styles/abyss.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+  <h1 style="font-size:60px; letter-spacing: 6px;" id="text2">a b y s s</h1>
+</div>
+<div id="menu">
+  <ul>
+    <li class="first"><a href="https://wrygrinn.neocities.org/main">Home</a></li>
+<li><a href="https://wrygrinn.atabook.org/">Guestbook</a></li>
+
+  </ul>
+</div>
+<div id="content">
+  <div id="columnA">
+    <h2>Button Wall</h2>
+<p style="margin-top: -20px;">
+      Neighbors/other neocities websites/nekoweb sites.</p>
+      
+  <a href="https://frutigeraeroarchive.org/"><img src="https://frutigeraeroarchive.org/images/buttons/frutigeraeroarchive_button_legacy.png" alt="Frutiger Aero Archive"></a>
+		<a href="https://endlessvoid.lol/"><img style= "width: 90px;" src="https://wrygrinn.neocities.org/endlessvoid.gif"></a>	
+		
+			
+			
+			<a href="https://kidwiththechemicalz.net/"><img src="https://wrygrinn.neocities.org/kidwiththechemicals_button.gif"></a>
+			
+			<a href="https://www.virtuagirl.net"><img src="https://i.imgur.com/yaA0mNF.gif"></a>
+			
+			<a href="https://whooami.neocities.org/"><img src="https://wrygrinn.neocities.org/whoamibutton.webp"></a>
+			
+			<a href="https://subtopia.neocities.org/" alt="subtopia" title="subtopia"><img src="https://subtopia.neocities.org/images/subtopiabutton.gif"></a>
+			
+			<a href="https://makoenergy.neocities.org/"><img src="https://wrygrinn.neocities.org/makoenergybutton.gif"></a>
+
+			<a href="https://hekate.neocities.org"><img src="https://hekate.neocities.org/images/button.png"></a>
+   
+ <a href="https://skeltrr.neocities.org/"><img src="https://skeltrr.neocities.org/Assets/skeltrrbutton.gif"></a> 
+ 
+ <a href="https://datoxicwaltz.neocities.org" target="_blank"><img src="https://wrygrinn.neocities.org/batterybutton.gif" width="88px" height="31px"></a> 
+ 
+<a href="https://cryb4by.neocities.org/"><img src="https://wrygrinn.neocities.org/cryb4bybutton.gif"></a>
+
+<a href="https://everythingkris.neocities.org/"><img src="https://wrygrinn.neocities.org/etk.gif"></a>
+
+<a href = "https://bloodintheheath.neocities.org/"><img src = "https://i.ibb.co/hx4RtcGg/Blood-In-The-Heath-Button.png" alt = "blood in the heath"></a>
+
+
+<br><br>
+   
+    
+  </div>
+    
+    
+  <div id="columnB">
+    <h2 id="text">??????</h2>
+<ul>
+    <p><a href="index.html">&larr;</a></p>
+   <li><a href="https://wrygrinn.neocities.org/sources">Sources</a></li>
+      <li><a href="https://wrygrinn.neocities.org/graphics">Graphics</a></li>
+    <li><a href="https://wrygrinn.neocities.org/abyss/sources">Helpful sources<small><small>(non-WD related)</small></small></a></li>
+<li><a href="https://wrygrinn.neocities.org/abyss/sites">Intresting websites</a></li>
+<li><a href="https://wrygrinn.neocities.org/abyss/buttonwall">Button wall</a></li>
+<li><a href="https://wrygrinn.neocities.org/abyss/directory">Full Directory</a></li>
+
+
+      </ul>
+  </div>
+  <div style="clear: both;">&nbsp;</div>
+</div>
+<div id="footer">
+<p style="font-size: 12px;">wrygrinn || 2026</p>
+    </div>
+</body>
+</html>
+
+<script>
+crazyCaps();
+
+function crazyCaps() {
+    let crazyItems = document.querySelectorAll(".crazy");
+    for (let i = 0; i < crazyItems.length; i++) {
+      let crazyTextItem = crazyItems[i];
+      
+      let cnt = 0;
+      setInterval(() => {
+        let newText = crazyTextItem.textContent.substring(0, cnt).toLowerCase() + crazyTextItem.textContent[cnt].toUpperCase() + crazyTextItem.textContent.substring(cnt + 1, crazyTextItem.textContent.length).toLowerCase();
+        crazyTextItem.textContent = newText;
+
+        cnt += 1;
+
+        if (cnt > crazyTextItem.textContent.length - 1) {
+          cnt = 0;
+        }
+
+      }, 109);
+    }
+  }
+</script>
+
+<style>
+  @keyframes squiggly-anim {
+    0% {
+      -webkit-filter: url("#squiggly-0");
+              filter: url("#squiggly-0");
+    }
+    25% {
+      -webkit-filter: url("#squiggly-1");
+              filter: url("#squiggly-1");
+    }
+    50% {
+      -webkit-filter: url("#squiggly-2");
+              filter: url("#squiggly-2");
+    }
+    75% {
+      -webkit-filter: url("#squiggly-3");
+              filter: url("#squiggly-3");
+    }
+    100% {
+      -webkit-filter: url("#squiggly-4");
+              filter: url("#squiggly-4");
+    }
+  }
+
+  #text {
+    animation: squiggly-anim 0.5s linear infinite;
+  }
+
+  .svg-container {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+</style>
+
+
+<style>
+
+@keyframes glow {
+130% {
+text-shadow: 0 20 15px #d36900;
+}
+
+2% {
+text-shadow: #ff7a57;
+}
+
+63% {
+text-shadow: 0 0 15px #ff7a57;
+}
+}
+
+@-webkit-keyframes glow {
+89% {
+text-shadow: 0 59 15px #cc0000;
+}
+
+35% {
+text-shadow: 0 0 16px #cc0000;
+}
+
+5% {
+text-shadow: 0 0 15px #ff7a57;
+}
+}
+
+#text2 {
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #000;
+font-weight:bold;
+-webkit-animation: glow 2.0s linear infinite;
+-moz-animation: glow 2.0s linear infinite;
+-ms-animation: glow 2.0s linear infinite;
+-o-animation: glow 2.0s linear infinite;
+animation: glow 2.0s linear infinite;
+}
+
+</style>
+
+<span class="svg-container">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
+    <defs>
+      <filter id="squiggly-0">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="0" />
+        <feDisplacementMap id="displacement" in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+      <filter id="squiggly-1">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="1" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+      </filter>
+      <filter id="squiggly-2">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="2" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+      <filter id="squiggly-3">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="3" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+      </filter>
+      <filter id="squiggly-4">
+        <feTurbulence id="turbulence" baseFrequency="0.02" numOctaves="3" result="noise" seed="4" />
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" />
+      </filter>
+    </defs>
+  </svg>
+</span>
+
+
