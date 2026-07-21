@@ -1,3 +1,8 @@
+@font-face {
+font-family:'OCRA';
+src: url ('https://wrygrinn.github.io/main/fonts/OCRA.woff');
+}
+
 body {
 	color:#fff;
 	font-family: verdana;
