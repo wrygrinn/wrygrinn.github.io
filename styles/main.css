@@ -427,4 +427,39 @@
 
     
                  }
-      
+
+
+.wrgbutton1:hover {
+cursor: help;
+}
+.wrgbutton:active {
+transform: translateY(3px);
+}
+#wrgbutton1 {
+margin-top: 4px;
+}
+#wrgbutton1:active {
+transform: translateX(4px);
+}
+
+
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip span {
+    color: #fdfdfd;
+    display:none;
+    background: #000000;
+    outline: 1px solid #ca0000;
+    padding: 2px;
+    font-family: ocr a;
+    z-index: 100;
+
+}
+.tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+    z-index: 100;
+}
