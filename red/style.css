@@ -391,6 +391,7 @@ p {
     font-family: 'dust_serif';
     font-size: 12px;
     }
+
 body{
 background:#000;
 font-family: 'ms ui gothic';
@@ -712,6 +713,8 @@ transform:rotate(135deg)
 #open {
 background:#000;
 color:#fff;
+font-family: ms ui gothic;
+font-size: 12px;
 display:block;
 padding:.5em
 }
