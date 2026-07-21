@@ -1,3 +1,7 @@
+@font-face {
+font-family:'OCRA';
+src: url ('wrygrinn.github.io/main/fonts/OCRA.woff');
+}
 
 div#menu .menu {
 		height: 31px;
