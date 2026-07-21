@@ -1,7 +1,7 @@
-       @font-face {
-  font-family: 'OCRA';
-  src: url(https://wrygrinn.neocities.org/fonts/OCRA.woff);
-      }
+@font-face {
+font-family:'OCRA';
+src: url ('wrygrinn.github.io/main/fonts/OCRA.woff');
+}
 
 body {
 	color:#fff;
@@ -14,16 +14,9 @@ body {
 	background-color:#000000;
 }
 
-
-
-::selection {
-    background: #3c0000;
-	color: #f00; 
-	}
-
 a,
 a:link {
-	font-family: 'OCRA';
+	font-family: OCR A;
 	font-size: 13px;
 	letter-spacing: 0.5px;
 	color: #a6a6a6;
@@ -34,9 +27,9 @@ a:link {
 
 h1 {
 	font-size: 22px;
-	font-family: 'times new roman';
-    font-family: ;
-    margin: 0;
+	font-family: times new roman;
+	font-style: italic;
+	margin: 0;
 	color: #eee;
 	border-bottom: 1px dashed #d3d3d3;
 	padding-bottom: 9px;
@@ -67,7 +60,7 @@ h2 {
 	margin: 0;
 	color: #ddd;
 	font-family: times new roman;
-    font-style: italic;
+	font-style: italic;
 	border-bottom: 1px dashed #d3d3d3;
 	border-top: 1px dotted #d3d3d3;
 }
@@ -124,7 +117,7 @@ div.wrap1 .wrap2 {
 }
 
 .logo {
-	font-family: 'OCRA';
+	font-family: ms pgothic;
 	font-size: 62px;
 }
 
@@ -242,46 +235,5 @@ div.rightpanel .inquiry, div.leftpanel .inquiry {
 }
 
 .inquiry a, .inquiry a:link, .inquiry a:visited, .inquiry a:hover { text-decoration:none; }
-
-@keyframes glow {
-130% {
-text-shadow: 0 32 78px #880000;
-}
-
-36% {
-text-shadow: #e40000;
-}
-
-63% {
-text-shadow: 0 0 30px #e40000;
-}
-}
-
-@-webkit-keyframes glow {
-89% {
-text-shadow: 0 59 178px #cc0000;
-}
-
-35% {
-text-shadow: 0 0 78px #cc0000;
-}
-
-80% {
-text-shadow: 0 0 78px #e40000;
-}
-}
-
-#text1 {
--webkit-background-clip: text;
--webkit-text-fill-color: #bc0000;
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: #000;
-font-weight:bold;
--webkit-animation: glow 2.8s linear infinite;
--moz-animation: glow 2.8s linear infinite;
--ms-animation: glow 2.8s linear infinite;
--o-animation: glow 2.8s linear infinite;
-animation: glow 2.8s linear infinite;
-}
 
 -->
