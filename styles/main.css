@@ -24,33 +24,33 @@
         
       @font-face {
   font-family: 'typewriter_________royal200normal';
-  src: url(/fonts/typewriter_________royal200normal-webfont.woff)
+  src: url(https://wrygrinn.net/fonts/typewriter_________royal200normal-webfont.woff)
       }
   
        @font-face {
   font-family: 'rough_linen';
-  src: url(/fonts/rough_linen-webfont.woff);
+  src: url(https://wrygrinn.net/fonts/rough_linen-webfont.woff);
       }
              @font-face {
   font-family: 'cheapInk';
-  src: url(/fonts/cheapInk.woff);
+  src: url('https://wrygrinn.net/fonts/cheapInk.woff');
       }
       @font-face {
   font-family: 'Why-do-we-blink-so-frequently';
-  src: url(/fonts/Why-do-we-blink-so-frequently.woff);
+  src: url('https://wrygrinn.net/fonts/Why-do-we-blink-so-frequently.woff');
       }
      @font-face {
   font-family: 'times_and_times_again';
-  src: url(/fonts/times_and_times_again-webfont.woff);
+  src: url('https://wrygrinn.net/fonts/times_and_times_again-webfont.woff');
       }
        @font-face {
   font-family: 'silenthunteriii';
-  src: url(/fonts/silenthunteriii_font-webfont.woff);
+  src: url('https://wrygrinn.net/fonts/silenthunteriii_font-webfont.woff');
       }
         
              @font-face {
   font-family: 'OCRA';
-  src: url(https://wrygrinn.neocities.org/fonts/OCRA.woff);
+  src: url('https://wrygrinn.neocities.org/fonts/OCRA.woff');
       }
         
         a {
