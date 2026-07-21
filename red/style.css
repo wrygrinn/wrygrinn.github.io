@@ -431,7 +431,7 @@ width:600px /* 大きさはここを変更 */
 上(ヘッダー)
 --------------------------------------------------------*/
 header{
-background:url(https://wrygrinn.neocities.org/red/plaid-2.gif);
+background:url(https://wrygrinn.net/red/plaid-2.gif);
 background-size: 50px;
 border-bottom:1px solid #000
 }
@@ -501,7 +501,7 @@ text-align:left
 下(フッター)
 --------------------------------------------------------*/
 footer{
-background:url(https://wrygrinn.neocities.org/red/plaid-2.gif);
+background:url(https://wrygrinn.net/red/plaid-2.gif);
 background-size: 50px;
 bottom:0;
 height:80px;
