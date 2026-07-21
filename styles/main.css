@@ -24,28 +24,28 @@
         
       @font-face {
   font-family: 'typewriter_________royal200normal';
-  src: url(https://wrygrinn.net.org/fonts/typewriter_________royal200normal-webfont.woff)
+  src: url(/fonts/typewriter_________royal200normal-webfont.woff)
       }
   
        @font-face {
   font-family: 'rough_linen';
-  src: url(https://wrygrinn.net/fonts/rough_linen-webfont.woff);
+  src: url(/fonts/rough_linen-webfont.woff);
       }
              @font-face {
   font-family: 'cheapInk';
-  src: url(https://wrygrinn.net/fonts/cheapInk.woff);
+  src: url(/fonts/cheapInk.woff);
       }
       @font-face {
   font-family: 'Why-do-we-blink-so-frequently';
-  src: url(https://wrygrinn.net/fonts/Why-do-we-blink-so-frequently.woff);
+  src: url(/fonts/Why-do-we-blink-so-frequently.woff);
       }
      @font-face {
   font-family: 'times_and_times_again';
-  src: url(https://wrygrinn.net/fonts/times_and_times_again-webfont.woff);
+  src: url(/fonts/times_and_times_again-webfont.woff);
       }
        @font-face {
   font-family: 'silenthunteriii';
-  src: url(https://wrygrinn.net/fonts/silenthunteriii_font-webfont.woff);
+  src: url(/fonts/silenthunteriii_font-webfont.woff);
       }
         
              @font-face {
