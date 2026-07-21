@@ -9,16 +9,6 @@
   src: url(https://wrygrinn.neocities.org/fonts/dust_serif-webfont.woff);
       }
 
-      body  {
-      
-      font-family: 'rough_linen';
-      font-size: 15px;
-        
-      }
-  
-
-
-
     .file {
     
     font-size: 12px;
@@ -29,11 +19,6 @@
     font-family: 'dust_serif';
     font-size: 12px;
     }
-
-  ::-moz-selection { /* Code for Firefox */
-  color: #000;
-  background: #FF0000;
-}
 
 ::selection {
   color: #000;
@@ -408,10 +393,11 @@ p {
     font-size: 12px;
     }
 body{
-background:#000;/* 背景 */
-color:#fff;/* 文字色 */
-font-size:1.2em;/* 文字の大きさ */
-font-family:Verdana,Roboto,'游ゴシック','Yu Gothic','游ゴシック体','YuGothic','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+background:#000;
+font-family: 'ms ui gothic';
+font-size: 15px;
+color:#fff;
+font-size:1.2em;
 height:100%;
 letter-spacing:.1em;
 line-height:1.5;
