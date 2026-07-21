@@ -1,6 +1,6 @@
      @font-face {
   font-family: 'OCRA';
-  src: url('https://wrygrinn.net/fonts/OCRA.woff');
+  src: url('/fonts/OCRA.woff');
       }
 
 div#menu .menu {
