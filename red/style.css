@@ -557,10 +557,12 @@ background: #000;
 border-radius:6px;
 font-size:1.4em;
 color: #fff;
+font-family: 'dust_serif';
 margin:10px 0 20px;
 padding:5px;
 position:relative
 }
+
 h3::after{
 border:8px solid transparent;
 border-top:8px solid #000;
