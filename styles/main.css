@@ -24,12 +24,12 @@
         
       @font-face {
   font-family: 'typewriter_________royal200normal';
-  src: url(https://wrygrinn.net/fonts/typewriter_________royal200normal-webfont.woff)
+  src: url('https://wrygrinn.net/fonts/typewriter_________royal200normal-webfont.woff')
       }
   
        @font-face {
   font-family: 'rough_linen';
-  src: url(https://wrygrinn.net/fonts/rough_linen-webfont.woff);
+  src: url('https://wrygrinn.net/fonts/rough_linen-webfont.woff');
       }
              @font-face {
   font-family: 'cheapInk';
