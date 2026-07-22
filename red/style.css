@@ -365,7 +365,7 @@ div,h1,h2,h3,p,ul,li,input,textarea,table,tr,th,td,footer,header,nav{box-sizing:
 input,textarea,select{font-family:inherit;font-size:inherit;color:inherit}
 a{text-decoration:none}
 a img{border-style:none}
-ul,li{list-style-type:none}
+ul,li{list-style-type: square;}
 
 html,body{
 height:100%
@@ -385,7 +385,7 @@ p {
     text-transform: uppercase;
   }
   h3{
-    font-family: 'ms ui gothic';
+    font-family: 'dust_serif';
     }
     .footer-inner {
     font-family: 'dust_serif';
@@ -462,6 +462,9 @@ height:2em;line-height:2em; /* メニュー高さ */
 nav li a,nav li span{
 color:#fff;
 display:block;
+font-family: ms ui gothic;
+font-size: 15px;
+font-weight: bold;
 padding:0 5px;
 text-decoration:none
 }
@@ -495,7 +498,8 @@ transition: .5s
 --------------------------------------------------------*/
 #contents{
 padding:20px 20px 100px; /* 最後はfooterの高さ+20 */
-text-align:left
+text-align:left;
+color: #000;
 }
 /*--------------------------------------------------------
 下(フッター)
@@ -541,7 +545,7 @@ margin:10px
 見出し、枠、線
 --------------------------------------------------------*/
 h1{
-font-size:1.7em;
+font-size:2.4em;
 padding:0 0 10px
 color: #fff;
 }
@@ -716,8 +720,8 @@ transform:rotate(135deg)
 background:#000;
 color:#fff;
 font-family: ms ui gothic;
+font-size: 12px;
 font-weight: bold;
-font-size: 8px;
 display:block;
 padding:.5em
 }
