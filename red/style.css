@@ -1,11 +1,11 @@
  @font-face {
   font-family: 'rough_linen';
-  src: url('/fonts/rough_linen-webfont.woff');
+  src: url('https://wrygrinn.net/fonts/rough_linen-webfont.woff');
       }
       
  @font-face {
   font-family: 'dust_serif';
-  src: url('/fonts/dust_serif-webfont.woff');
+  src: url('https://wrygrinn.net/fonts/dust_serif-webfont.woff');
       }
 
     .file {
