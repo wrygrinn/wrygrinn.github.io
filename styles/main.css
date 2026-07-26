@@ -84,7 +84,7 @@
       
 
         html {
-            background-image: url(https://wrygrinn.neocities.org/backgrounds/field.jpg);
+            background-image: url(https://wrygrinn.net/backgrounds/field.jpg);
             background-attachment: fixed;
             background-size: cover;
             background-position: top;
@@ -117,7 +117,7 @@
         
 
         .header {
-            background-image: url(https://wrygrinn.neocities.org/banners/wrygrinnbanner3.gif);
+            background-image: url(https://wrygrinn.net/banners/wrygrinnbanner3.gif);
             height: 51px;
             border-style: none;
             background-size: cover;
@@ -183,12 +183,12 @@
             font-size: 15px;
             border-style: none;
             float: left;
-            background-image: url(https://wrygrinn.neocities.org/back-menu2.png);
+            background-image: url(https://wrygrinn.net/back-menu2.png);
             text-align: center;
         }
 
         .title {
-            background-image: url(https://wrygrinn.neocities.org/bottom2.png);
+            background-image: url(https://wrygrinn.net/bottom2.png);
             height: 20px;
             padding-left: 10px;
             padding-top: 4px;
@@ -249,7 +249,7 @@
     float: left;
       margin-left: -1px;
    padding: 12px;
-      background-image: url(https://wrygrinn.neocities.org/main/sitemap.png);
+      background-image: url(https://wrygrinn.net/main/sitemap.png);
       background-size: cover;
 }
 
@@ -409,7 +409,7 @@
         }
                 .back {
             background-position: top;
-            background-image: url(https://wrygrinn.neocities.org/bottom2.png);
+            background-image: url(https://wrygrinn.net/bottom2.png);
             background-size: cover;
             padding: 0px;
             position: flex;
