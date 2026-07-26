@@ -464,3 +464,14 @@ transform: translateX(4px);
     overflow:hidden;
     z-index: 100;
 }
+
+  textarea {
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #f00;
+    font-family: ocr a;
+    width: 88px;
+    height:36px;
+    display: block;
+  }
