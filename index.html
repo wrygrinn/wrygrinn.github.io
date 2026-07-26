@@ -1,373 +1,471 @@
-<html>
-  <head>
-  <link rel="icon" type="image/x-icon" href="/gifs/scissorss.gif">
-  <title>digitalshitscape</title>
-<script>
-(function(c, a, m) {
-  var title = (c || document.title) + " " + (a || "-") + " ";
-  setInterval(function() {
-    title = title.substring(1) + title.charAt(0);
-    document.title = title;
-  }, m || 300);
-})(
-  /* Tab Text */ "?????????",
-  /* Title Repeat Separator */ "-",
-  /* Scroll Speed (in milleseconds) */ 100
-);
 
-
-</script>
-
-<script>
-  if (navigator.userAgent === "Screenjesus") {
-    document.body.innerHTML = '<img src="/images/interior1.jpg" style="width:100vw;height:100vh;object-fit:cover;filter:grayscale(0%);">';
-  }
-</script>
-
-<!--cursor-->
-<style>* {cursor: url(http://www.rw-designer.com/cursor-download.php?id=12038), auto;}</style>
-<style>A:hover{cursor: url("http://www.rw-designer.com/cursor-download.php?id=12047"), auto;}
-</style>
-<!--end of cursor-->
-
-
-
-
-
-<link
-  rel="stylesheet"
-  href="https://unpkg.com/xp.css"
->
-<style>  
-  /* ---------- fonts ---------- */
-
-  @font-face {
-  font-family: 'punk-typewriter';
-  src: url(https://wrygrinn.net/fonts/punk-typewriter-webfont.woff);
-}
-    @font-face {
-  font-family: 'Why-do-we-blink-so-frequently';
-  src: url(https://wrygrinn.net/fonts/Why-do-we-blink-so-frequently.woff);
-}
-  
-      @font-face {
-  font-family: 'Outwrite';
-  src: url(https://wrygrinn.net/fonts/Outwrite.woff);
-}
-        @font-face {
-  font-family: 'cheapInk';
-  src: url(https://wrygrinn.net/fonts/cheapInk.woff);
-        }
-  
-          @font-face {
-  font-family: 'snuff';
-  src: url(https://wrygrinn.net/fonts/snuff-webfont.woff);
-}
-
-          @font-face {
-  font-family: 'silenthunteriii';
-  src: url(https://wrygrinn.net/fonts/silenthunteriii_font-webfont.woff);
-}
-
-  
-
-  html, body {
-    height: 100%;
-    margin: 0;
-    background-color: #000;
-    color: #fff;
-    font-family: 'times new roman';
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .top-link {
-    position: absolute;
-    top: 46px;      
-    left: 120px;    
-    color: rgba(255,255,255,0.85);
-    font-size: 0.9rem;
-    z-index: 15;
-    text-shadow: 0 0 6px rgba(144, 3, 3, 0.6);
-  }
-
-  /* ---------- center image container ---------- */
-  .center-image {
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 900px;
-    height: 650px;
-    max-width: 95vw;
-    max-height: 85vh;
-    filter: grayscale(-3%) contrast(257%) saturate(108%) brightness(70%) drop-shadow(0 0 6px #000);
-    user-select: none;
-    pointer-events: none;
-    background-size: cover;
-    background-position: center;
-    z-index: 5;
-  }
-/*---------------link colors--------------*/
-  
-  
-  b { 
-   color: #fff; 
-  }
-  
-  a {
-    font-family: 'Outwrite';
-    color: #212121;
-    font-size: 31px;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    font-family: 'punk-typewriter';
-    color: #000;
-    font-size: 43px;
-    text-decoration: none;
-    font-weight: bold;
-        text-shadow: 0 0 14px rgba(255, 0, 0, 0.66);
-  }
-  
-  li  {
-    color: #fff;
-    list-style-type: none;
-  }
-  
- 
-  /* ---------- body text ---------- */
-  .body-text {
-    position: absolute;
-    top: 15%;      
-    left: 58%;
-    color: #520000;
-    font-family: 'Why-do-we-blink-so-frequently';
-    font-size: 20px;
-    padding: 10px;
-    width: 200px;
-    text-shadow: 0 0 1px black;
-    line-height: 25px;;
-    transform: translateX(-50%);
-    image-rendering: pixelated;
-    z-index: 999; 
-  }
-      #floating-txt {
-            font-family: 'Outwrite';
-    font-size: 71%;
-    color: #fff;
-  }  
-  /* ---------- FOOTER ---------- */
-  footer {
-    margin-top: auto;
-    padding: 22px;
-    text-align: center;
-    font-size: 15px;
-    opacity: 0.9;
-    font-family: 'MS PGothic', monospace;
-    z-index: 10;
-  }
-
-
-
-  ::selection {
-    background: #000;
-    color: #f00;
-  }
-
-
-  .img1 {
-    position: absolute;
-    bottom: 10px;  /* raised 20px from -10px */
-    left: 20px;    /* moved right from -10px */
-    width: 90px;
-    image-rendering: pixelated;
-    z-index: 25;
-    pointer-events: auto;
-  }
-
-  /*-----------enter text-----------*/
-  .enter,.image-map {
-    position: absolute;
-    bottom: 386px;   /* moved HIGHER */
-    right: 917px;   /* moved toward CENTER */
-    width: 5px;
-    filter: none !important;
-    z-index: 10;
-    cursor: pointer;
-    pointer-events: auto;
-  }
-
-  @keyframes glitch {
-    0%   { transform: translate(0, 0) skew(0deg); }
-    20%  { transform: translate(-2px, 1px) skew(-2deg); }
-    40%  { transform: translate(2px, -1px) skew(2deg); }
-    60%  { transform: translate(-1px, -2px) skew(-1deg); }
-    80%  { transform: translate(1px, 2px) skew(1deg); }
-    100% { transform: translate(0, 0) skew(0deg); }
-  }
-
-
-  .warning-text {
-    position: absolute;
-    top: 40px;       /* moved DOWN */
-    right: 120px;    /* moved toward CENTER */
-    font-size: 0.9rem;
-    color: white;
-    transform: rotate(-9deg);
-    z-index: 10060;
-    text-shadow: 0 0 4px black;
-  }
-
-  @media screen and (max-width: 900px) {
-    .center-image {
-      width: 90vw;
-      height: auto;
-    }
-
-    .top-link {
-      left: 77px;
-      top: 20px;
-    }
-
-  
-
-</style>
-
-<style>
-.lines {
-position: fixed;
-left: 0;
-top: 0;
-width: 100vw;
-height: 100vh;
-pointer-events: none;
-z-index: 300;
-opacity: 0.05;
-}
- 
-.lines:before {
-content: '';
-position: absolute;
-left: 0;
-top: 0;
-right: 0;
-bottom: 0;
-pointer-events: none;
-background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, .5) 51%);
-background-size: 100% 4px;
-will-change: background, background-size; animation: scanlines 0.2s linear infinite;
-}
- 
-@keyframes scanlines {
-from {
-background: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, .5) 51%); background-size: 100% 4px; }
-to {
-background: linear-gradient(to bottom, rgba(0, 0, 0, .5) 50%, transparent 51%);
-background-size: 100% 4px;
-}
-}
-@media only screen and (max-width: 600px);
-{
-</style>
- 
-<div class="lines"></div>
+<title>Home.</title>
+<head>
+<link rel="icon" type="image/x-icon" href="/gifs/scissorss.gif">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/styles/main.css" rel="stylesheet" type="text/css" />
+</head>
 
 
 <body>
-
-
-  
-  <div class="floating-txt">
-      <p style="font-family: Outwrite; position:fixed; margin-top: 4%; margin-left: 499px; color: #fff; font-size: 50px; letter-spacing: 2px;transform: translate(-50%, -50%););
-">wrygrinn.net</p>
-</div>
     
-   <!--txt effects-->
-<style>
-  #text {
-         padding:4px;
- animation: shake 0.3s infinite;
- }
- 
- @keyframes shake {
- 0% {
- transform: translate(1px, 1px) rotate(0deg);
- }
- 10% {
- transform: translate(-1px, -2px) rotate(-1deg);
- }
- 20% {
- transform: translate(-3px, 0px) rotate(1deg);
- }
- 30% {
- transform: translate(3px, 2px) rotate(0deg);
- }
- 40% {
- transform: translate(1px, -1px) rotate(1deg);
- }
- 50% {
- transform: translate(-1px, 2px) rotate(-1deg);
- }
- 60% {
- transform: translate(-3px, 1px) rotate(0deg);
- }
- 70% {
- transform: translate(3px, 1px) rotate(-1deg);
- }
- 80% {
- transform: translate(-1px, -1px) rotate(1deg);
- }
- 90% {
- transform: translate(1px, 2px) rotate(0deg);
- }
- 100% {
- transform: translate(1px, -2px) rotate(0deg);
- }
- 
+
+<!--cursor-->
+
+<style type="text/css">* {cursor: url('https://cdn.cursors-4u.net/previews/9162a-a54ca784-cursor_2-preview-32.webp') 2 2, auto !important;} </style>
+
+    <!--HTML CONTENT-->
+
+    <div class="box"><div class="box-top"><div class="poop"></div></div><div class="box-center"><table class="box-inner">
+        <div class="mainframe">
+
+        
+            
+            
+                   
+      
+            
+                <div class="header">
+                    
+            </div>
+                               
+            
+            <div class="topbar">
+                
+            <p style="font-family: OCRA; font-size: 9px;">Last modified:</p> <p style="font-family: OCRA; font-size: 7.5px;; color: #ff0;"><script>document.write(document.lastModified);</script>.</p>
+
+
+                
+                    <p style="font-family: OCRA; font-size: 9px;">Total Hits:</p> 
+              <!-- FC2 Counter  Starts here -->
+<script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=40616119&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=40616119&main=1" /></noscript>
+<!-- FC2 Counter  Ends here -->
+            
+            </div>
+            
+   <div class="topbar2">
+                
+       <marquee><p style="font-family: OCRA; font-size: 11px;"><b><u>NOTICE:</u></b> I have 4 websites (including 2 backup) and am working on all of them at the SAME TIME.</p></marquee>
+                
+            
+            </div>
+            <bR>
+      <div class = "box-sitemap">
+
+<div class="links">
+    <br>
+    <ul style="text-align: left">
+  <li><a href="/about">&nbsp;ABOUT</a></li>
+    <br>
+    <li><a href="/blog/">&nbsp;BLOG</a></li>
+    <br>
+    <li><a href="/gallery/">&nbsp;GALLERY</a></li>
+    <br>
+    <li><a href="/projects/">&nbsp;PROJECTS</a></li>
+    <br>
+    <li><a href="/abyss/">&nbsp; ABYSS</a></li>
+    </ul>
+        <br><br><br><br>
+            </div>
+    
+
+            </div>
+            
+
+
+            <div style="border-width: 1px;" class="about" >
+                
+                <div class="title"> THE DIGITAL SHITSCAPE</div>
+                <p>I created this website December 29. 2024 when I was getting irritated with site builders Carrd or Strawpage due to their UI and  limited customization.
+  <br><br>
+  The "Digital Shitscape" was a stupid name I came up with because because my code was shit. I stuck with it because it has a nice ring to it.
+            <br><br>
+                    There are hidden links located in images all over the site, I like putting small easter eggs for people to find :D
+                
+                </p>
+                
+                
+                
+                <style>
+
+.wrgbutton1:hover {
+cursor: help;
+}
+.wrgbutton:active {
+transform: translateY(3px);
+}
+#wrgbutton1 {
+margin-top: 4px;
+}
+#wrgbutton1:active {
+transform: translateX(4px);
+}
+
+
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip span {
+    color: #fdfdfd;
+    display:none;
+    background: #000000;
+    outline: 1px solid #ca0000;
+    padding: 2px;
+    font-family: ocr a;
+    z-index: 100;
+
+}
+.tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+    z-index: 100;
+}
 </style>
 
+<script>
+
+var tooltips = document.querySelectorAll('.tooltip span');
+
+window.onmousemove = function (e) {
+    var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    for (var i = 0; i < tooltips.length; i++) {
+        tooltips[i].style.top = y;
+        tooltips[i].style.left = x;
+    }
+};
+
+</script>
+         
+                
+                
   
 
+  <div class="title" style="width: 459px">LINK ME OR LOSE ME FOREVER</div>
+               
+               
+<a class="tooltip"  onclick="myFunction()" > <img id="wrgbutton1" src="https://wrygrinn.net/buttons/wrgbutton2.gif" class="tooltip"> <span> Click to get code. </span></a>
 
-<div class="center-image" style="background-image: url('https://wrygrinn.github.io/main/frontpage2.png');">
-  <div class="enter">
-  <!-- Image Map Generated by http://www.image-map.net/ -->
-    <a href="/images/cloud1.svg"><img src="https://wrygrinn.github.io/gifs/enterbutton.gif" usemap="#image-map"></a>
 
+                
+                
+<style>
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip span {
+    color: #fdfdfd;
+    display:none;
+    background: #000000;
+    outline: 1px solid #ca0000;
+    padding: 2px;
+    font-family: ocr a;
+    z-index: 100;
 
-<map name="image-map">
-    <area target="_self" alt="ENTER" title="EnTer??" href="https://wrygrinn.net/main" coords="243,189,14,72" shape="rect">
-</map>
+}
+.tooltip:hover span {
+    display:block;
+    position:fixed;
+    overflow:hidden;
+    z-index: 100;
+}
+  textarea {
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #f00;
+    font-family: ocr a;
+    width: 88px;
+    display: block;
+  }
+</style>
+
+<script>
+
+var tooltips = document.querySelectorAll('.tooltip span');
+
+window.onmousemove = function (e) {
+    var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    for (var i = 0; i < tooltips.length; i++) {
+        tooltips[i].style.top = y;
+        tooltips[i].style.left = x;
+    }
+};
+
+</script>
+
+<br>
+<textarea id="demo"></textarea>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "&lt;a href=&quot;https://wrygrinn.net/&quot;&gt;&lt;img src=&quot;https://wrygrinn.net/buttons/wrgbutton2.gif&quot;&gt;&lt;/a&gt;";
+}
+</script>
 
 </div>
 
 
-  
-  <img src="https://wrygrinn.github.io/parentaladvisory.png" class="img1">
+    
+            
+            
+            
+            
+                 <div style="margin-top: 360px; height: 262px;" class="blinkies">
+               
+         <marquee direction="left">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/guts.png">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/monstr.png">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/idiot.gif">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/eye-stamp.png">
+        <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/mccart-stamp.png">
+        <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/troll.webp">
+           <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/skull.gif">
+           <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/toxic.webp">
 
-</div>
+</marquee>
+                <br>
+                <marquee direction=right>
+                     <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/biohazard.gif">
+              <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/htmljunkie.gif">
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/hateweb.gif">
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/ragebait-blinkie.webp">
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/meat-blink.webp">
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/popups.gif">
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/postal.gif">
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/lovegraphics.gif">            
+                <img style="width:122px" src="https://wrygrinn.neocities.org/blinks/no.gif">
 
-  
-<div class="body-text">
-  
- 
- Some imagery is<br> not sutible for everyone.
-        <br>
-        17+ ONLY.
-        <br><br>
-<strong>This site contains hidden links!</strong> 
-  <br><Br>
-Go <a href="https://wrygrinn.neocities.org/main">here</a> for neocities
-</div>
+                </marquee>
+                
+                <br>
+                
+                <marquee direction=left>
+                        <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/teeth-stamp.webp">
+                            <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/feign-stamp.png">
+                     <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/fuck.gif">
+                            <img style="width:86px" src="https://wrygrinn.neocities.org/eye-bleed-stamp.png">
+                           <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/aderlass-stamp.png">
+                            <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/4amstamp.png">
+                            <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/xbox-stampp.png">
+                            <img style="width:86px" src="https://wrygrinn.neocities.org/sonye.png">
 
-<footer>
-  <p style="font-family: times new roman; font-size: 12px; color: #fff; top: 127px;">wrygrinn || 2026
-</p>
-</footer>
+                </marquee>
+                
+                <marquee direction="right">
+                 <img style="width:96px" src="https://wrygrinn.neocities.org/digital-blasphemy.gif">
+   <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/kys.png">
+ <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/monster.png">
+ <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/nokids.gif">
+ <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/gears.webp">
+ <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/pill.jpg">
+ <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/silenthill.jpg">
+ <img style="width:85px" src="https://wrygrinn.neocities.org/blinks/badapple.gif">
+                </marquee>
+                
+                <marquee>
+                           <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/halloween1.webp">
+                           <img style="width:78px" src="https://wrygrinn.neocities.org/blinks/black-cat.webp">
+                           <img style="width:89px" src="https://wrygrinn.neocities.org/blinks/leadpipe.jpg">
+<img style="width:89px" src="https://wrygrinn.neocities.org/blinks/fuckyou.png">
+                <img style="width:88px" src="https://wrygrinn.neocities.org/blinks/fries-stamp.gif">
 
-</body>
+                </marquee>
+                        <br>
+ <marquee direction="right">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/guts.png">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/monstr.png">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/idiot.gif">
+                <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/eye-stamp.png">
+        <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/mccart-stamp.png">
+        <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/troll.webp">
+           <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/skull.gif">
+           <img style="width:86px" src="https://wrygrinn.neocities.org/blinks/toxic.webp">
+
+</marquee>
+                
+            </div>
+            
+            <div class="bored">
+               
+                <div class="title" style="width:207px; height: 30px;">I'M BORED WHAT CAN I DO HERE</div>
+                
+                
+              <p style="font-size: 13px;color: #dedede;">There's a lot I'm planning to add but in the meantime, you can find hidden pages or other useless bullshit.
+                  <br><br>
+                  This place is just for me to deposit my thing on to anyway.
+                </p>
+                
+            </div>
+            
+            
+
+              <div class="artshowcase">
+               
+                  <div class="title" style="width: 239px;">ART SHOWCASE</div>
+                  
+                  <p>This is just an excuse for me to show off</p>
+                  
+                  <p style="font-family: times new roman; color: #B83737;"><small><i>From 2026.02.20</i></small></p>
+           
+<img style="width: 244px;" src="https://wrygrinn.neocities.org/art/what-r-we.gif">
+                
+                      </div>
+                  
+            <div class="banners">
+                <a href="https://www.youtube.com/watch?v=LOfGCKOKfv0"><img style="width: 470px;" src="https://wrygrinn.neocities.org/gifs/michael-jordan.gif"></a>
+            </div>
+
+            
+            
+       
+            
+   
+          <div class="filler">
+     <div class="title" style="width:153px; height: 34px;">THINGS I'VE WASTED MY TIME ON</div>
+
+              <p style="font-size: 11.8px; background-color: #dfd5a3; color: #000;"><b>** Including my commentary!</b></p>
+
+              
+              
+           
+              <p style="font-size: 14px;">&#10139; <b>Silent Hill 2 (2001)</b> 
+                                <br>
+                            <small style="color: #ff9f9f; line-height: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;1100/10 My favorite game evr changed my life probably</small> </p>
+             
+              <p style="font-size: 14px;">&#10139; <b>Silent Hill 3 (2003)</b>
+                                    <br>
+                                    <small style="color: #ff9f9f; line-height: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1100/10 I love this game more than I can put into words</small></p>
+              
+               
+              <p style="font-size: 14px;">&#10139; <b>Cry of Fear (2012)</b> 
+                                        <br>
+                                                <small style="color: #ff9f9f; line-height: 16px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.6/10 Represents depression incredibly accurate. Deducted points because the main dev is human scum.</small></p>
+
+              
+              
+              <p style="font-size: 14px;">&#10139; <b>Silent Hill (1999)</b>
+                                            <br>
+                                            <small style="color: #ff9f9f; line-height: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1100/10 One of my personal favorites due to the atmosphere :D</small></p>
+              
+                <p style="font-size: 14px;">&#10139; <b>Silent Hill 4: The Room (2004)</b> 
+                                            <br>
+                                            <small style="color: #ff9f9f; line-height: 16px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1000/10 I love the graphics and the background design! I didn't expect to like it initially but I loved it!</small></p>
+              
+              <p style="font-size: 14px;">&#10139; <b>Rule of Rose (2006)</b> 
+                                        <br>
+                                                <small style="color: #ff9f9f; line-height: 16px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ?/10 Never quite finished it, lack of guides on the internet :p</small></p>
+
+              <p style="font-size: 14px;">&#10139; <b>Postal (1997)</b> 
+                                        <br>
+                                                <small style="color: #ff9f9f; line-height: 16px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5/10 The gameplay is quite repetative. THOUGH, it's good in the way it presents itself such as the title screen and art.</small></p>
+              
+              <p style="font-size: 14px;">&#10139; <b>Postal <sup>2</sup> (2003)</b> 
+                                        <br>
+                                                <small style="color: #ff9f9f; line-height: 16px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 999/10 I get to commit acts of terrorism and smoke crack without actual legal repercussions. Truly an American classic.</small></p>
+
+                 <p style="font-size: 14px;">&#10139; <b>Postal III (2011)</b> 
+                                        <br>
+                                                <small style="color: #ff9f9f; line-height: 16px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SON &#128557;/10 This is a MESS. My computer didn't explode but my frame rate did drop a lot. Not to mention ts corny asf </small></p>
+
+
+              <p style="font-size: 14px;">&#10139; <b>Embodiment of Scarlet Devil (2002)</b> 
+                                <br>
+                            <small style="color: #ff9f9f; line-height: 16px;">&nbsp;&nbsp;&nbsp;&nbsp; &#9469;/10 The game itself is just simply a bullet hell with cute girls in silly hats but, it was a big part of my childhood.</small> </p>
+             
+
+              
+              </div>
+            <br>
+                        <div>
+    
+   <div class="music">
+       <center>
+       <br>
+       <img src="https://wrygrinn.neocities.org/gifs/spinning-smilely.gif"> <small>Last played...</small>
+       <br>
+           <small><span id="song" style="font-family: ocr a; font-weight:bold; color: #f00; margin-top: 300px;"></span></small></center></div>
+<!------- powered by https://github.com/biancarosa/lastfm-last-played --------->
+            <script type="text/javascript">
+                let user = 'Sinapisarvensis';
+                let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
+                let song = document.querySelector('#song');
+                fetch(url)
+                .then(function (response) {
+                    return response.json()
+                }).then(function (json) {
+                song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
+                });
+            </script>
+            
+            
+            
+
+            </div>
+          
+
+     
+            <div class="stupidshit">   
+                
+                
+                
+                <div style="width: 100%">
+                    
+                                        <h2  style="font-family: 'cheapInk';padding:2px; font-size: 12px; background-color: #000;">STUPID IMAGE/VIDEO OF THE WEEK:</h2>
+
+<iframe width="167" height="200" src="https://file.garden/adxt0hdfCBC6Cm2x/bike.mp4" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                        <!---
+                                        iframe template so I don't forget
+                                        
+                                        <iframe width="167" height="200" src="---" title="video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--->
+
+              
+                    
+                    <p style="font-size: 12px;">
+                    <b><br></b></p>
+                    
+                        <td style="text-align: center">
+                          
+                     
+                    <tr style="text-align: center">
+<br><br>
+                        
+                    </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">
+                           
+                        </td>
+                    </tr>
+            </div>
+
+
+      
+        
+<div class="back">
+                
+                <img src="https://wrygrinn.neocities.org/bottom2.png" alt="" height="40" width="806" border="0" usemap="#Map"><br>
+          <map name="Map"><area shape="rect" coords="640,9,766,27" href="https://wrygrinn.net/" alt="back"></map>
+                
+            </div>            
+            </div></table>
+<br><br><br><br>
+    <div class= "footer">
+                          <p style="font-family: times new roman; font-size: 12px;"><a style="font-family: times new roman; font-size: 14px; color: #eee;" href="https://neocities.org/site/wrygrinn">wrygrinn</a> || <a style="font-family:times new roman; font-size: 14px; color: #eee;" href="mailto:wrygrinn@hotmail.com">email</a> || 2026</p>
+
+        </div>
+ <div class="deco">
+                                    <img style="width: 337px;" src="https://wrygrinn.neocities.org/gifs/clock.gif">     
+                                    </div>
+            
+
+        </div>      </table>
+ </div></div></div></body>
+</html>
+
+<!--Inspiration taken from
+ Konami Silent Hill 4 webpage archive-->
