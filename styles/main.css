@@ -24,7 +24,7 @@
         
       @font-face {
   font-family: 'typewriter_________royal200normal';
-  src: url('https://wrygrinn.net/fonts/typewriter_________royal200normal-webfont.woff')
+  src: url('https://wrygrinn.net/fonts/typewriter_________royal200normal.woff')
       }
   
        @font-face {
@@ -195,7 +195,7 @@
             color: #fff;
             border-style: solid;
             border-width: thin;
-            font-family: 'cheapInk';
+            font-family: 'canker';
             border-left-style: none;
             border-color: #000;
             margin-left: -5px;
@@ -339,6 +339,7 @@
             border-color: #760000;
             width: 173px;
             float: left;
+            font-family: 'ocra';
             margin-left: 611px;
             border-width: 1px;
             margin-top: -103px;
@@ -399,10 +400,10 @@
             width: 182px;
             float: left;
             position: sticky;
-            margin-top: -671px;
+            margin-top: -657px;
             background: #000;
             font-size: 14px;
-            margin-left: 617px;
+            margin-left: 612px;
             height: 290px;
             text-align: center;
         }
