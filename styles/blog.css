@@ -237,3 +237,27 @@ div.rightpanel .inquiry, div.leftpanel .inquiry {
 .inquiry a, .inquiry a:link, .inquiry a:visited, .inquiry a:hover { text-decoration:none; }
 
 -->
+
+
+		#statuscafe {
+    padding: 0.1em;
+  	font-family: verdana;
+    letter-spacing: 1px;
+	max-height: 213px;
+}
+#statuscafe-username {
+	color: #f00;
+    font-size: 9px;
+    margin-bottom: .5em;
+}
+#statuscafe-content {
+	color: #ddd;
+    margin: 0 1em 0.5em 1em;
+    font-size: 10.6px;
+}
+a{
+	color: #eee;
+}
+a:hover {
+	color: #f00;
+}
