@@ -7,6 +7,9 @@
     font-family: "reactor";
     src: url('https://wrygrinn.net/fonts/Reactor7.woff');
 }
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/silver-pointer-alternate-select-48fffd09-32.webp') 43 32, auto !important;
+}
 
 body {
 background-color:#000;
@@ -17,7 +20,6 @@ font-family: "reactor" ;
 font-size: 15.6px;
 letter-spacing: 2px;
 padding:0;
-cursor: url('https://cdn.cursors-4u.net/previews/metal-pointer-6d8c9b9c-32.webp') 33 34, auto !important;
 }
 
 .fade-in {
