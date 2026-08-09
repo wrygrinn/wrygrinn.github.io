@@ -291,7 +291,7 @@ padding:2px 0 0 1em;
 }
 
 div.navigation li {
-background:url(images/navigation_button2.png) 100% -100px;
+background:url(/abyss/images/navigation_button2.png) 100% -100px;
 float:left;
 border-bottom:1px solid #bbb;
 text-align:center;
@@ -301,7 +301,7 @@ padding:0 5px 0 0;
 
 div.navigation li.active {
 border-bottom:1px solid #666;
-background:url(images/navigation_button2.png) 100% 0;
+background:url(/abyss/images/navigation_button2.png) 100% 0;
 position:relative;
 z-index:100;
 }
@@ -311,7 +311,7 @@ display:block;
 float:left;
 text-align:center;
 white-space:nowrap;
-background:url(imagevs/navigation_button2.png) 0 -100px;
+background:url(/abyss/imagevs/navigation_button2.png) 0 -100px;
 text-decoration:none;
 min-height:17px;
 font-size:9pt;
@@ -321,7 +321,7 @@ padding:5px 11px 4px 16px;
 
 div.navigation li.active a,div.navigation li.active span {
 color:#aca0e7;
-background:url(images/navigation_button2.png) 0 0;
+background:url(/abyss/images/navigation_button2.png) 0 0;
 }
 
 div.navigation li:hover {
@@ -353,11 +353,11 @@ color:#aaa;
 }
 
 div.outer-prettification {
-background:#0d0d0d url(images/enclosure/left2.png) left repeat-y;
+background:#0d0d0d url(/abyss/images/enclosure/left2.png) left repeat-y;
 }
 
 div.inner-prettification {
-background:url(images/enclosure/right2.png) right repeat-y;
+background:url(/abyss/images/enclosure/right2.png) right repeat-y;
 }
 
 div.contents {
@@ -422,7 +422,7 @@ height:auto;
 }
 
 h1.title,div.title {
-background:url(images/enclosure/top_left2.png) top left no-repeat;
+background:url(/abyss/images/enclosure/top_left2.png) top left no-repeat;
 font-size:220%;
 margin:1em 0 0;
 }
@@ -430,7 +430,7 @@ margin:1em 0 0;
 h1.title a,div.title span {
 color:#000;
 display:block;
-background:url(images/enclosure/top_right2.png) top right no-repeat;
+background:url(/abyss/images/enclosure/top_right2.png) top right no-repeat;
 font-weight:400;
 font-size:80%;
 text-decoration:none;
@@ -448,7 +448,7 @@ display:block;
 }
 
 div.header {
-background:url(images/enclosure/top2.png) top repeat-x;
+background:url(/abyss/images/enclosure/top2.png) top repeat-x;
 position:relative;
 z-index:75;
 }
@@ -461,17 +461,17 @@ z-index:75;
 }
 
 div.footer {
-background:url(images/enclosure/bottom2.png) bottom repeat-x;
+background:url(/abyss/images/enclosure/bottom2.png) bottom repeat-x;
 }
 
 div.footer p {
-background:url(images/enclosure/bottom_left2.png) bottom left no-repeat;
+background:url(/abyss/images/enclosure/bottom_left2.png) bottom left no-repeat;
 margin:0;
 }
 
 div.footer p a {
 display:block;
-background:url(images/enclosure/bottom_right2.png) bottom right no-repeat;
+background:url(/abyss/images/enclosure/bottom_right2.png) bottom right no-repeat;
 text-align:right;
 font-size:85%;
 color:#999;
