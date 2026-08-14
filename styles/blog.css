@@ -3,6 +3,10 @@ font-family:'OCRA';
 src: url ('https://wrygrinn.net/fonts/OCRA.woff');
 }
 
+* {
+	cursor: crosshair;
+}
+
 body {
 	color:#fff;
 	font-family: verdana;
