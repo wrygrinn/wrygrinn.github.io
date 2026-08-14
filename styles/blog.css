@@ -3,9 +3,6 @@ font-family:'OCRA';
 src: url ('https://wrygrinn.net/fonts/OCRA.woff');
 }
 
-* {
-	cursor: crosshair;
-}
 
 body {
 	color:#fff;
@@ -14,6 +11,7 @@ body {
 	line-height: 20px;
 	letter-spacing: 0.7px;
 	margin:0 auto;
+	cursor: crosshair;
 	background-size: 100px ;
 	background-color:#000000;
 }
@@ -24,6 +22,7 @@ a:link {
 	font-size: 13px;
 	letter-spacing: 0.5px;
 	color: #a6a6a6;
+	cursor: help;
 	text-decoration: none;
 }
 
