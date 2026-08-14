@@ -63,6 +63,7 @@
         a:hover{
             color: #fff;
             font-family: 'cheapInk';
+			cursor: crosshair;
             font-size: 13px;
         }
         
