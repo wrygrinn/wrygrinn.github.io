@@ -76,7 +76,7 @@
 
         a:hover{
             color: #fff;
-            font-family: 'cheapInk';
+            font-family: 'typewriter_________royal200normal';
 			cursor: crosshair;
             font-size: 13px;
         }
@@ -194,7 +194,7 @@
             color: #fff;
             border-style: solid;
             border-width: thin;
-            font-family: "canker";
+            font-family: "typewriter_________royal200normal";
             border-left-style: none;
             border-color: #000;
             margin-left: -5px;
@@ -219,7 +219,7 @@
             padding: 7px;
             border-style: solid; 1px; 
             font-size: 17px;
-            font-family: 'typewriter_________royal200normal';
+            font-family: 'times new roman';
             border-color: #760000;
             color: #eee;
             font-size: 17px;
