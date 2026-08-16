@@ -198,8 +198,7 @@
             border-left-style: none;
             border-color: #000;
             margin-left: -5px;
-            font-size: 12px;
-            font-family: ;
+            font-size: 18px;
         }
 
         li {
@@ -427,7 +426,7 @@
                  }
 
 
-.wrgbutton1:hover {
+.wrgbutton:hover {
 cursor: help;
 }
 .wrgbutton:active {
@@ -452,7 +451,7 @@ transform: translateX(4px);
     outline: 1px solid #ca0000;
     padding: 2px;
     font-family: "OCRA";
-	font-size: 12px;
+	font-size: 9px;
     z-index: 100;
 
 }
