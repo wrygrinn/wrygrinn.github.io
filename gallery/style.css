@@ -1,0 +1,497 @@
+@font-face {
+    font-family: euro;
+    src: url('https://wrygrinn.net/fonts/Eurosteal.woff');
+}
+
+@font-face {
+    font-family: reactor;
+    src: url('https://wrygrinn.net/fonts/Reactor7.woff');
+}
+
+
+*{margin:0;padding:0}
+div,h1,h2,h3,p,ul,li,input,textarea,table,tr,th,td,footer,header,nav,section{box-sizing:border-box}
+input,textarea,select{font-family:inherit;font-size:inherit;color:inherit}
+a{text-decoration:none;outline:none}
+a img{border-style:none}
+ul,li{list-style-type:none}
+
+html{
+min-height:100%;
+position:relative;
+font-size:62.5%
+}
+body{
+background: #000;
+background-size: 2px;
+color:#9bc4c7;
+font-size:1.2em;
+font-family: verdana;
+letter-spacing:0.1em;
+line-height:1.5;
+text-align:center;
+overflow-wrap:break-word;
+word-wrap:break-word
+}
+p {
+    font-family: reactor7;
+    color:#c9ecef;
+    font-size: 17px;
+}
+
+li {
+    list-style-type: square;
+}
+
+a{
+color:#90c8dc;
+}
+a:hover{
+color:#fff;
+}
+
+.block a img{
+vertical-align:bottom;
+}
+
+#wrapper{
+text-align:left
+}
+#index{
+margin:0 auto;
+width:500px
+}
+
+header{
+background:#000000;
+border-bottom:3px solid #0f2a57;
+position:fixed;
+top:0;
+left:0;
+min-height:80px;
+width:100%;
+z-index:10
+}
+#header-inner{
+font-family: euro;
+margin-bottom:3em;
+padding:10px
+}
+
+#contents{
+margin:0 auto;
+height:100%;
+width:1000px; 
+}
+/* 左側 */
+#leftcolumn{
+float:left;
+text-align:left;
+width:300px
+}
+/* 右側 */
+#rightcolumn{
+display:inline;
+float:right;
+margin:0;
+width:700px
+}
+.block{
+background:#000000;
+border: 1px solid #5b7377;
+box-shadow:0 1px 2px #666;
+clear:both;
+margin:20px 10px;
+padding:18px;
+word-wrap:break-word
+}
+#contents,#rightcolumn,#leftcolumn,.block{
+box-sizing:border-box
+}
+/*--------------------------------------------------------
+下
+--------------------------------------------------------*/
+footer{
+background:#000000;
+position:absolute;
+bottom:0;left:0;
+width:100%;
+min-width:1000px; /* #contentsのwidthと同じ数値 */
+}
+.footer-inner{
+padding:10px;
+text-align:center
+}
+footer a{
+color:#669599
+}
+/*--------------------------------------------------------
+メニュー
+--------------------------------------------------------*/
+#menu{
+font-family: 'verdana';
+font-size: 12px;
+font-weight: bold;
+background:#1d363b;
+border-bottom:3px double #669599;
+position:absolute;
+bottom:0;
+line-height:1;
+text-align:center;
+width:100%
+}
+nav li{
+display:inline-block; /* 横並び */
+position:relative; /* サブメニュー表示位置の基準 */
+height:2em;line-height:2em; /* メニュー高さ */
+}
+nav li a,nav li span{
+color:#b3cddd;
+display:inline-block;
+padding:0 5px
+}
+nav li a:hover,nav li span:hover{
+color:#fff;
+transition:0.3s
+}
+/* サブメニュー */
+.sub-menu{
+background:#b3d2dd;
+position:absolute;
+width:200px; /* サブメニュー幅 */
+z-index:20
+}
+.sub-menu li{
+display:block; /* 横並びをリセット */
+visibility:hidden; /* 隠す */
+overflow:hidden; /* 隠す */
+height:0; /* 隠す */
+width:100%
+}
+.sub-menu li a{
+border-bottom:1px solid #668b99;
+color:#0f3b57;
+display:block
+}
+.sub-menu li a:hover{
+background:#dddddd;
+color:#0f3057
+}
+nav li:hover .sub-menu li{
+visibility:visible;
+overflow:visible;
+height:2em;line-height:2em; /* サブメニュー高さ */
+transition: .5s
+}
+#open{display:none}
+
+#pagetop {
+background:#95b6cf;
+border:3px solid #0f4157;
+color:#0f3457;
+font-family: 'euro';
+height:32px;
+width:124px; 
+border-radius:3px;
+box-sizing:border-box;
+display:block;
+line-height:20px;
+padding-top:27px;
+position:fixed;
+text-align:center;
+z-index:10
+}
+#pagetop:before {
+content:'\2B06 TOP';
+font-size:14px;
+position:absolute;
+left:0;
+top:4px;
+width:100%
+}
+#pagetop:hover {
+background:#667699;
+color: #fff;
+}
+#fl a {
+display:inline-block;
+margin:5px 0
+}
+/*--------------------------------------------------------
+見出し、枠、線
+--------------------------------------------------------*/
+h1{
+color:#faf7e6;
+font-size:2.7em;
+margin:0 0 0.5em
+}
+h2{
+font-family: ms ui gothic;
+background:#0f4457;
+border-radius:6px;
+color:#c5dbe6;
+font-size: 17px;
+margin:1em 0;
+padding:10px;
+position:relative
+}
+h2::after{
+border:8px solid transparent;
+border-top:8px solid #0f2b57;
+content:'';
+position:absolute;
+top:100%;left:30px;
+height:0;width:0
+}
+h3{
+font-family: 'verdana';
+font-size: 17px;
+background:#668499;
+border-radius:3px;
+color:#0a1117;
+font-weight:bold;
+margin:1em 0;
+padding:0 10px
+}
+dt{
+border-bottom:1px solid;
+font-weight:700
+}
+dd{
+padding:1em
+}
+
+input,textarea{
+background:#838383;
+border:1px dotted #404040;
+color:#bebebe;
+margin:3px 0;
+width:200px
+}
+textarea{
+height:50px
+}
+hr{
+display:block;
+border:0;  
+border-top:1px solid #668b99;
+margin:1em 0;
+padding:0;
+height:1px
+}
+.marker{
+background:#afb9bc;
+padding:1px 5px
+}
+.dcline{
+border-left:5px solid #dd0206;
+margin:5px 0;
+padding:3px
+}
+.textbox{
+border:1px solid;
+margin:10px 0;
+padding:3px;
+text-align:center
+}
+.title{
+font-size:1.5em;
+font-weight:700;
+margin:2em 0;
+text-align:right
+}
+.txt{
+border-left:1px dotted;
+color:#998c66;
+margin:1em;
+padding:0 0 0 1em
+}
+.frame{
+background:#998c66;
+border-radius:3px;
+padding:5px
+}
+.cf:before,.cf:after{content:" ";display:table}
+.cf:after{clear:both}
+/*--------------------------------------------------------
+スマホ、タブレット用
+横幅600pxで切り替え
+--------------------------------------------------------*/
+@media screen and (max-width: 600px){
+body{
+font-size:1.3em
+}
+header{
+border-bottom:20px solid #0f4e57;
+position:relative
+}
+#header-inner{
+margin-bottom:0
+}
+h1{
+line-height:1;
+min-height:40px;
+padding-right:50px
+}
+#index h1{
+min-height:inherit;
+padding-right:0
+}
+#contents{
+margin:0 auto 50px auto;
+width:100%
+}
+#leftcolumn,#rightcolumn{
+float:none;
+width:100%
+}
+#rightcolumn{
+margin-left:0
+}
+header,footer{
+min-width:100%
+}
+.block a{
+display:inline-block;
+margin:5px 5px 5px 0;
+padding:5px
+}
+.block a.bg-none{
+background:none;
+border-radius:0;
+margin:5px 5px 0 0;
+padding:0
+}
+.block a:hover{
+background:#0f3c57;
+color:#deeef1;
+transition:.5s
+}
+#fl a{
+color:#fff;
+background:#73828c;
+border-radius:5px
+}
+#index{
+width:auto
+}
+/* 画像の縮小表示 */
+img{
+max-width:100%;
+height:auto
+}
+/*--------------------------------------------------------
+スマホ、タブレット用メニュー
+--------------------------------------------------------*/
+/* メニュー */
+#menu{
+background:rgba(15, 55, 87, 0.9); /* メニューの背景色 */
+display:none;
+left:0;
+bottom:inherit;
+text-align:left;
+z-index:20
+}
+nav li{
+display:block; /* 横並び解除 */
+height:auto;line-height:inherit /* 高さリセット */
+}
+nav li a,nav li span{
+color:#fff;
+display:block;
+position:relative;
+padding:15px 20px /* リンクの余白 一列の高さはここで調節 */
+}
+nav li a:hover,nav li span:hover{
+background:rgba(179, 209, 221, 0.8);
+color:#0f3b57
+}
+/* サブメニュー */
+.sub-menu{
+background:none;
+position:static;
+display:none; /* 隠す */
+width:100%;
+z-index:auto
+}
+.sub-menu li{
+display:inline-block;/* 一列ごとにするならここを削除 */
+visibility:visible; /* リセット */
+overflow:visible; /* リセット */
+height:auto; /* 高さリセット */
+width:50% /* 一列ごとにするならここを削除 */
+}
+.sub-menu li a{
+border-bottom:0;
+color:#fff
+}
+.sub-menu li a:after{
+display:none
+}
+nav li:hover .sub-menu li{
+height:auto;line-height:inherit /* 高さリセット */
+}
+nav li span:after{
+border-top:3px solid #fff;/* メニュー「>」の色 */
+border-right:3px solid #fff;/* メニュー「>」の色 */
+content:"";
+display:block;
+margin-top:-5px;
+position:absolute;
+top:50%;right:10px;
+height:5px;width:5px;
+-ms-transform:rotate(45deg);
+-webkit-transform:rotate(45deg);
+transform:rotate(45deg);
+transition:.2s
+}
+nav li span.open:after{
+-ms-transform:rotate(135deg);
+-webkit-transform:rotate(135deg);
+transform:rotate(135deg)
+}
+/* メニューを開くボタン */
+#open{
+display:inline-block;
+margin:0 5px;
+position:absolute;
+height:40px;width:40px;/* 大きさ */
+top:10px;right:10px/* 位置 */
+}
+#open-icon,#open-icon:before,#open-icon:after{
+background:#fff; /* 線の色 */
+}
+#open-icon{display:block;margin:-1px 0 0 -10px;position:absolute;top:50%;left:50%;height:2px;width:20px}
+#open-icon:before,#open-icon:after{content:"";display:block;position:absolute;top:50%;left:0;height:2px;width:20px;transition:.3s}
+#open-icon:before{margin-top:-8px}
+#open-icon:after{margin-top:6px}
+#open .close{background:transparent}
+#open .close:before,#open .close:after{margin-top:0}
+#open .close:before{-ms-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+#open .close:after{-ms-transform:rotate(-135deg);-webkit-transform:rotate(-135deg);transform:rotate(-135deg)}
+}
+::selection {
+background-color: #ddd;
+color: #000;
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #2da3ac #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2da3ac;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
