@@ -144,27 +144,32 @@ text-align:center;
 width:100%
 }
 nav li{
+font-family: 'verdana';
 display:inline-block; /* 横並び */
 position:relative; /* サブメニュー表示位置の基準 */
 height:2em;line-height:2em; /* メニュー高さ */
 }
 nav li a,nav li span{
+font-family: 'verdana';
 color:#b3cddd;
 display:inline-block;
 padding:0 5px
 }
 nav li a:hover,nav li span:hover{
+font-family: 'verdana';
 color:#fff;
 transition:0.3s
 }
 /* サブメニュー */
 .sub-menu{
+font-family: 'verdana';
 background:#b3d2dd;
 position:absolute;
 width:200px; /* サブメニュー幅 */
 z-index:20
 }
 .sub-menu li{
+font-family: 'verdana';
 display:block; /* 横並びをリセット */
 visibility:hidden; /* 隠す */
 overflow:hidden; /* 隠す */
@@ -172,15 +177,18 @@ height:0; /* 隠す */
 width:100%
 }
 .sub-menu li a{
+font-family: 'verdana';
 border-bottom:1px solid #668b99;
 color:#0f3b57;
 display:block
 }
 .sub-menu li a:hover{
+font-family: 'verdana';
 background:#dddddd;
 color:#0f3057
 }
 nav li:hover .sub-menu li{
+font-family: 'verdana';
 visibility:visible;
 overflow:visible;
 height:2em;line-height:2em; /* サブメニュー高さ */
