@@ -43,6 +43,7 @@ p {
 
 li {
     list-style-type: square;
+    font-family: 'reactor';
 }
 
 a{
@@ -228,7 +229,7 @@ font-size:2.7em;
 margin:0 0 0.5em
 }
 h2{
-font-family: 'ms ui gothic';
+font-family: 'verdana';
 background:#0f4457;
 border-radius:6px;
 color:#c5dbe6;
@@ -247,7 +248,7 @@ height:0;width:0
 }
 h3{
 font-family: 'reactor';
-font-size: 17px;
+font-size: 23px;
 background:#668499;
 border-radius:3px;
 color:#0a1117;
