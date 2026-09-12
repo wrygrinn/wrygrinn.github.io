@@ -228,7 +228,7 @@ font-size:2.7em;
 margin:0 0 0.5em
 }
 h2{
-font-family: ms ui gothic;
+font-family: 'ms ui gothic';
 background:#0f4457;
 border-radius:6px;
 color:#c5dbe6;
@@ -246,7 +246,7 @@ top:100%;left:30px;
 height:0;width:0
 }
 h3{
-font-family: 'verdana';
+font-family: 'reactor';
 font-size: 17px;
 background:#668499;
 border-radius:3px;
