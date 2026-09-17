@@ -19,14 +19,13 @@
 </script>
 <html>
   <title></title>
-<body>
   
-  <div class="wr">
+ <div class="wr">
     <b>WARNING</b>
   </div>
   
-  <div class="title">
-    <a href="https://wrygrinn.net/main">enTer</a>
+  <div class="enter">
+    <a href="https://wrygrinn.net/main" ><span>enTer</span></a>
     </div>
   
   <div class="txt">
@@ -46,6 +45,11 @@
     src: url('https://wrygrinn.net/fonts/carbon.woff');
   }
   
+  * {
+        cursor: cell;
+
+  }
+  
   body {
     background-image: url('https://file.garden/adxt0hdfCBC6Cm2x/footprint.jpg');
     background-size: 423px;
@@ -63,7 +67,7 @@
     letter-spacing:1px;
     color:#000;
   }
-  .title {
+  .enter {
     font-family:"carbon";
     font-size: 40px;
     position: absolute;
@@ -74,12 +78,13 @@
     color:#000;
   } 
 
-    .title:hover {
+    .enter:hover {
     font-family:"carbon";
     font-size: 40px;
     position: absolute;
     margin-top: -300px;
     font-weight: bold ;
+    cursor:alias;
     text-transform: ;
     margin-left: 353px;
     letter-spacing:1px;
@@ -112,6 +117,18 @@
     letter-spacing:1px;
     color:#000;
   }
+  .enter:hover:before {
+  content: "go for it";
+   color: #000000 !important;
+  font-size: 35px;
+}
+a:hover:before {
+  content: attr(data-hover);
+    line-height: 0%;
+}
+  .enter:hover span {
+  display: none;
+}
   @media only screen and (max-width: 871px) {
       body {
     background-image: url('https://file.garden/adxt0hdfCBC6Cm2x/footprint.jpg');
@@ -125,5 +142,48 @@
         background-color: #000;
         color: #fff;
   }
+  }
+      @media only screen and (max-width: 871px) { 
+    .enter:hover:before {
+  content: "go for it";
+  color: #fff !important;
+  background-color: #000;
+  color: #fff;
+  font-size: 35px;
+}
+a:hover:before {
+  content: attr(data-hover);
+  line-height: 0%;
+  background-color: #000;
+  color: #fff;
+}
+  .enter:hover span {
+  display: none;
+}
+  }
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #000000 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+  ::selection {
+    background-color: #ddd;
+    color: #000;
   }
 </style>
