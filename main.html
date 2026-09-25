@@ -87,8 +87,18 @@
 
   <div class="title" style="width: 459px">LINK ME OR LOSE ME FOREVER</div>
                
-                       <script src="/js/tooltip.js"></script>
+<script>
+  var tooltips = document.querySelectorAll('.tooltip span');
 
+window.onmousemove = function (e) {
+    var x = (e.clientX + 20) + 'px',
+        y = (e.clientY + 20) + 'px';
+    for (var i = 0; i < tooltips.length; i++) {
+        tooltips[i].style.top = y;
+        tooltips[i].style.left = x;
+    }
+};
+</script>
 <a class="tooltip"  onclick="myFunction()" > <img id="wrgbutton1" src="https://wrygrinn.net/buttons/wrgbutton2.gif" class="tooltip"> <span> Click to get code. </span></a>
 
 
