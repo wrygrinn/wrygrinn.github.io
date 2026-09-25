@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://cdn.cursors-4u.net/cursors/animated/oth3-11-51736d03-32.css">
 <!-- End www.Cursors-4U.com Code -->
 
-      <script src="/js/tooltip"></script>
+      <script src="/js/tooltip.js"></script>
 
 </head>
 
@@ -284,19 +284,7 @@ function myFunction() {
        <img src="https://wrygrinn.net/gifs/spinning-smilely.gif"> <small>Last played...</small>
        <br>
            <small><span id="song" style="font-family: ocr a; font-weight:bold; color: #f00; margin-top: 300px;"></span></small></center></div>
-<!------- powered by https://github.com/biancarosa/lastfm-last-played --------->
-            <script type="text/javascript">
-                let user = 'Sinapisarvensis';
-                let url = 'https://lastfm-last-played.biancarosa.com.br/' + user + '/latest-song';
-                let song = document.querySelector('#song');
-                fetch(url)
-                .then(function (response) {
-                    return response.json()
-                }).then(function (json) {
-                song.innerHTML = json['track']['name'] + ' - ' + json['track']['artist']['#text'];
-                });
-            </script>
-            
+<script src="/js/music.js"></script>
             
             
 
