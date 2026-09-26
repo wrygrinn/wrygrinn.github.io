@@ -1,42 +1,4 @@
 
-
-html {
-            background-image: url(https://wrygrinn.net/backgrounds/field.jpg);
-            background-attachment: fixed;
-            background-size: cover;
-            background-position: top;
-            font-family: 'typewriter_________royal200normal';
-            letter-spacing: 1px;
-            color: #E3E3E3;
-			cursor: url('https://file.garden/adxt0hdfCBC6Cm2x/red-aero/Normal%20Select.cur');
-            overflow: auto;
-            background-color: #000;
-            filter: contrast(1.2);
-        }
-
-
-    /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
-    scrollbar-width: auto;
-    scrollbar-color: #610000 #000000;
-  }
-
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
-    width: 16px;
-  }
-
-  *::-webkit-scrollbar-track {
-    background: #000000;
-  }
-
-  *::-webkit-scrollbar-thumb {
-    background-color: #610000;
-    border-radius: 10px;
-    border: 3px solid #ffffff;
-  }
-        
         
       @font-face {
   font-family: 'typewriter_________royal200normal';
@@ -72,6 +34,46 @@ html {
   font-family: 'smash';
   src: url('/fonts/smash.woff');
       }
+
+
+html {
+            background-image: url(https://wrygrinn.net/backgrounds/field.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: top;
+            font-family: 'reactor';
+            letter-spacing: 1px;
+            color: #E3E3E3;
+			cursor: url('https://file.garden/adxt0hdfCBC6Cm2x/red-aero/Normal%20Select.cur');
+            overflow: auto;
+            background-color: #000;
+            filter: contrast(1.2);
+        }
+
+
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #610000 #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #610000;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+        
+
       
           a {
             font-family: 'smash';
