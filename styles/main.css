@@ -91,23 +91,20 @@ html {
             font-size: 15px;
         }
         
-              li::marker {
+::selection {
+background-color: #ddd;
+color: #000;
+}
+	              li::marker {
   content: '✁'; 
   color: #e23009; 
   font-size: 1.2em;
-
-
       }
 
-::selection {
-    background: #3c0000;
-	color: #f00; 
-	}
-	
 
         .mainframe {
-            width: 805px;
-            height: 751px;
+            width: 796px;
+            height: 709px;
             padding: 5px;
             margin-top: -2px;
             position: sticky;
@@ -140,7 +137,11 @@ html {
 
 
           p {
-           font-family: 'typewriter_________royal200normal';
+            font-family: 'reactor';
+            color:#dfdfdf;
+            font-size: 14px;
+            letter-spacing: 1.4px;
+            line-height: 14px;
           }
         
 
@@ -148,15 +149,16 @@ html {
             background-image: url();
             background-position: top;
             background-size: cover;
-            width: 108px;
+            width: 464px;
             padding: 5px;
             margin-top: 0px;
-            height: 59px;
-            border-style: double;
-            font-family: ocr a;
-            font-size: 10px;
+            position: sticky;
+            margin-left: 131px;
+            height: 17px;
+            border-style: solid;
             color: #d3dde7;
-            border-color: #470000;
+            border-width: 1px;
+            border-color: #760000;
             margin-bottom: 5px;
             text-align: center;
         }
@@ -169,15 +171,16 @@ html {
             background-image: url();
             background-position: top;
             padding: 5px;
-            width: 655px;
-            margin-left: 128px;
-            margin-top: -77px;
+            width: 463px;
+            margin-left: 130px;
+            margin-top: 5px;
+            border-width: 1px;
             position:sticky;
-            border-style: double;
-            font-family: ocr a;
-            font-size: 13px;
+            border-style: solid;
+            font-family: 'times new roman';
+            font-size: 17px;
             color: #d3dde7;
-            border-color: #470000;
+            border-color: #760000;
             margin-bottom: 5px;
             text-align: center;
         }
@@ -197,53 +200,62 @@ html {
         }
 
         .title {
-            background-image: url(https://wrygrinn.net/bottom2.png);
-            height: 20px;
-            padding-left: 10px;
-            padding-top: 4px;
-            color: #fff;
+            background-image: url();
+            font-family: 'unc';
+            padding-left: 1px;
+            padding-top: 2px;
+            color: #fffdf8;
+            text-transform: ;
             border-style: solid;
             border-width: thin;
-            font-family: "typewriter_________royal200normal";
+            letter-spacing: 7px;
             border-left-style: none;
             border-color: #000;
-            margin-left: -5px;
-            font-size: 16px;
+            margin-left: 9px;
+            font-size: 24px;
         }
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'ocra';
+    color: #c5c5c5;
+    font-weight: normal;
+}
+
+h2 {
+        font-size: 12.7px;
+        font-weight: normal;
+}
+h3 {
+        font-size: 16.4px;
+        font-weight: normal;
+}
 
         li {
   display: list-item;
             margin-left: -23px;
-            font-family: 'typewriter_________royal200normal';
+            font-family: '';
         }
 
         .about {
             width: 460px;
-            margin-left: 7px;
-            margin-top: -20px;
-            height: 354.4px;
+            margin-left: 9px;
+            margin-top: -15px;
+            height: 313.9px;
             float: left;
             position:sticky;
-            background: #000;
             padding: 7px;
             border-style: solid; 1px; 
-            font-size: 17px;
             border-color: #760000;
-            color: #eee;
-            font-size: 17px;
+            color: #d8d8d8;
             text-align: justify;
 
         }
 
-        .about p {
-            font-family: 'typewriter_________royal200normal';
-            padding: 10px;
-            margin: 0px;
-            font-weight: normal;
-            line-height: 19px;
-            font-size: 13px;
-        }
-
+.about p {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1px;
+}
      
 
   .box-sitemap {
@@ -252,7 +264,7 @@ html {
     height: 318px;
     position: sticky;
     border: 1px solid #470000;
-    margin-top: -51px;
+    margin-top: -49px;
     float: left;
     margin-left: -2px;
     padding: 12px;
@@ -269,28 +281,18 @@ html {
         }
         
 
-        .blinkies {
-            margin-left: -65px;
-            width: 95px;
-            height: 228px;
-            position: sticky;
-            float: left;
-            font-size: 14px;
-            margin-top:177px;
-         
-        }
 
      
 
         .bored {
             border-style: solid;
             border-color: #760000;
-            width: 203px;
+            width: 206px;
             float: left;
             border-width: 1px;
-            margin-top: 10px;
+            margin-top: 7px;
             position: sticky;
-            margin-left: 7px;
+            margin-left: 132px;
             background: #000;
             font-size: 14px;
             padding-top: 0px;
@@ -350,7 +352,7 @@ html {
             font-family: 'ocra';
             margin-left: 611px;
             border-width: 1px;
-            margin-top: -103px;
+            margin-top: -105px;
             position: sticky;
             background: #000;
             font-size: 14px;
@@ -373,11 +375,11 @@ html {
             position: sticky;
             margin-left: 612px;
             border-width: 1px;
-            margin-top: -359px;
+            margin-top: -356px;
             font-size: 14px;
             padding-top: 4px;
             padding: 5px;
-            height: 239px;
+            height: 235px;
         overflow-y: scroll;
             overflow-x: hidden;
            
@@ -388,15 +390,16 @@ html {
         .blinkies {
             border-style: solid;
             border-color: #760000;
-            width: 109px;
+            width: 112px;
             float: left;
-            margin-left: -603px;
-            margin-top: 20px;
+            margin-left: -609px;
+            margin-top: 304px;
+            position: sticky;
             border-width: 1px;
             background: #000;
             font-size: 14px;
             padding: 5px;
-            height: 214px;
+            height: 284px;
             overflow-y: hidden;
  
         }
@@ -408,7 +411,7 @@ html {
             width: 182px;
             float: left;
             position: sticky;
-            margin-top: -657px;
+            margin-top: -652px;
             background: #000;
             font-size: 14px;
             margin-left: 612px;
