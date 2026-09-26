@@ -1,5 +1,5 @@
    (function(){
       emailjs.init({
-        publicKey: "RwnhM2U5r9n0R3OXh",
+        publicKey: "CIHi6aJpe9m6qfZMH",
       });
    })();
