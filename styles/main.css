@@ -150,6 +150,7 @@ color: #000;
             background-position: top;
             background-size: cover;
             width: 464px;
+			font-family: 'reactor';
             padding: 5px;
             margin-top: 0px;
             position: sticky;
@@ -250,12 +251,6 @@ h3 {
             text-align: justify;
 
         }
-
-.about p {
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 1px;
-}
      
 
   .box-sitemap {
