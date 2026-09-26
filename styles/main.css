@@ -45,42 +45,50 @@ html {
   
        @font-face {
   font-family: 'rough_linen';
-  src: url('https://wrygrinn.net/fonts/rough_linen-webfont.woff');
+  src: url('/fonts/rough_linen-webfont.woff');
       }
              @font-face {
   font-family: 'canker';
-  src: url('https://wrygrinn.net/fonts/canker!.woff');
+  src: url('/fonts/canker!.woff');
       }
       @font-face {
   font-family: 'Why-do-we-blink-so-frequently';
-  src: url('https://wrygrinn.net/fonts/Why-do-we-blink-so-frequently.woff');
+  src: url('/fonts/Why-do-we-blink-so-frequently.woff');
       }
      @font-face {
   font-family: 'times_and_times_again';
-  src: url('https://wrygrinn.net/fonts/times_and_times_again-webfont.woff');
+  src: url('/fonts/times_and_times_again-webfont.woff');
       }
        @font-face {
   font-family: 'silenthunteriii';
-  src: url('https://wrygrinn.net/fonts/silenthunteriii_font-webfont.woff');
+  src: url('/fonts/silenthunteriii_font-webfont.woff');
       }
         
              @font-face {
   font-family: 'OCRA';
-  src: url('https://wrygrinn.net/fonts/OCRA.woff');
+  src: url('/fonts/OCRA.woff');
       }
-        
-        a {
-            font-family: 'silenthunteriii';
+                @font-face {
+  font-family: 'smash';
+  src: url('/fonts/Smash.woff');
+      }
+      
+          a {
+            font-family: 'smash';
             text-decoration: none;
+            text-transform: lowercase;
             color: #a31919;
-            font-size: 16px;
+            padding-left: 8px;
+            font-weight: normal;
+            font-size: 15px;
         }
 
         a:hover{
-            color: #fff;
-            font-family: 'typewriter_________royal200normal';
+            color: #a31919;
+            font-family: 'smash';
+            padding-left: 4px;
 			cursor: crosshair;
-            font-size: 13px;
+            font-size: 15px;
         }
         
               li::marker {
@@ -239,15 +247,15 @@ html {
      
 
   .box-sitemap {
-   background-color: #000;
-   width: 101px;
-   height: 318px;
+    background-color: #000;
+    width: 99px;
+    height: 318px;
     position: sticky;
-   border: 1px solid #470000;
-   margin-top: 19px;
+    border: 1px solid #470000;
+    margin-top: -51px;
     float: left;
-      margin-left: -1px;
-   padding: 12px;
+    margin-left: -2px;
+    padding: 12px;
       background-image: url(https://wrygrinn.net/main/sitemap.png);
       background-size: cover;
 }
@@ -260,6 +268,7 @@ html {
             background-image: url();
         }
         
+
         .blinkies {
             margin-left: -65px;
             width: 95px;
