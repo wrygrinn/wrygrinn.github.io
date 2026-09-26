@@ -8,9 +8,9 @@ var params = {
 
 const serviceID = "service_5exqf5l";
 const templateID = "template_5tos4ul";
-
-emailjs.send(serviceID,templateID,params)
-
+    
+emailjs.send("service_5exqf5l","template_5tos4ul");  
+    
 .then(
 res => {
     document.getElementById("name").value = "";
