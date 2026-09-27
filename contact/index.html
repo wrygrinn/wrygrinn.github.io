@@ -51,7 +51,7 @@
     }
     
     p {
-        font-family: reactor7;
+        font-family: 'reactor';
         font-size: 16px;
         color:#d5d5d5;
     }
@@ -69,7 +69,7 @@
   }
 
   input {
-    font-family: reactor;
+    font-family: 'reactor';
     font-size: 17px;
     color: #fff;
     width: 185px;
@@ -94,7 +94,7 @@ textarea:focus {
 
 
   textarea {
-    font-family: reactor7;
+    font-family: 'reactor';
     font-size: 17px;
     color: #fff;
     width: 185px;
@@ -119,4 +119,25 @@ textarea:focus {
 background-color: #ddd;
 color: #000;
 }
+    /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #2b76ca #000000;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #000000;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #2b76ca;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
 </style>
