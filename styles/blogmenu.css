@@ -5,10 +5,11 @@
 
 div#menu .menu {
 		height: 31px;
-		width: 880px;
+		width: 883px;
+		margin-left: -9px;
 		font-family: 'OCRA';
 		background-image: url('https://wrygrinn.net/dividers/distressed-bar1.png');
-		background-size: 957px;
+		background-size: cover;
 		background-repeat: repeat-x;
 	}
 	
@@ -21,7 +22,7 @@ margin-top: -14px; }
 		font-family: 'OCRA';
 		list-style: none;
 		line-height: normal;
-		margin-left: 4px;
+		margin-left: 1px;
 	}
 	
 	*> div#menu .menu ul { 		
