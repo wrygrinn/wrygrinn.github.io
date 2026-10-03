@@ -1,10 +1,7 @@
-
-
 @font-face {
 font-family:'OCRA';
 src: url ('https://wrygrinn.net/fonts/OCRA.woff');
 }
-
 
 body {
 	color:#fff;
@@ -23,15 +20,15 @@ a:link {
 	font-size: 13px;
 	letter-spacing: 0.5px;
 	color: #a6a6a6;
-	cursor: help;
 	text-decoration: none;
 }
 
 
 
 h1 {
-	font-size: 18px;
-	font-family: OCRA;
+	font-size: 22px;
+	font-family: ocra;
+	font-weight: normal;
 	margin: 0;
 	color: #eee;
 	border-bottom: 1px dashed #d3d3d3;
@@ -62,10 +59,22 @@ h2 {
 	font-size: 12px;
 	margin: 0;
 	color: #ddd;
-	font-family: times new roman;
+	font-family: verdana;
 	font-style: italic;
 	border-bottom: 1px dashed #d3d3d3;
 	border-top: 1px dotted #d3d3d3;
+}
+
+#post_date {
+	font-family: monospace;
+	color: #ddd;
+	font-size: 11px;
+}
+
+#warning {
+	font-style: normal;
+	color: #ffffff;
+	font-size: 13px;
 }
 
 h1 a,
@@ -263,4 +272,9 @@ a{
 }
 a:hover {
 	color: #f00;
+}
+
+::selection {
+background-color: #ddd;
+color: #000;
 }
