@@ -1,13 +1,11 @@
-
-
 @font-face {
     font-family: euro;
-    src: url('https://wrygrinn.net/fonts/Eurosteal.woff');
+    src: url('/fonts/Eurosteal.woff');
 }
 
 @font-face {
     font-family: reactor;
-    src: url('https://wrygrinn.net/fonts/Reactor7.woff');
+    src: url('/fonts/Reactor7.woff');
 }
 
 
@@ -36,7 +34,7 @@ overflow-wrap:break-word;
 word-wrap:break-word
 }
 p {
-    font-family: 'reactor';
+    font-family: reactor7;
     color:#c9ecef;
     font-size: 17px;
 }
@@ -83,7 +81,7 @@ padding:10px
 #contents{
 margin:0 auto;
 height:100%;
-width:85%; 
+width:1000px; 
 }
 /* 左側 */
 #leftcolumn{
@@ -143,32 +141,27 @@ text-align:center;
 width:100%
 }
 nav li{
-font-family: 'verdana';
 display:inline-block; /* 横並び */
 position:relative; /* サブメニュー表示位置の基準 */
 height:2em;line-height:2em; /* メニュー高さ */
 }
 nav li a,nav li span{
-font-family: 'verdana';
 color:#b3cddd;
 display:inline-block;
 padding:0 5px
 }
 nav li a:hover,nav li span:hover{
-font-family: 'verdana';
 color:#fff;
 transition:0.3s
 }
 /* サブメニュー */
 .sub-menu{
-font-family: 'verdana';
 background:#b3d2dd;
 position:absolute;
 width:200px; /* サブメニュー幅 */
 z-index:20
 }
 .sub-menu li{
-font-family: 'verdana';
 display:block; /* 横並びをリセット */
 visibility:hidden; /* 隠す */
 overflow:hidden; /* 隠す */
@@ -176,19 +169,15 @@ height:0; /* 隠す */
 width:100%
 }
 .sub-menu li a{
-font-family: 'verdana';
 border-bottom:1px solid #668b99;
 color:#0f3b57;
 display:block
 }
-
 .sub-menu li a:hover{
-font-family: 'verdana';
 background:#dddddd;
 color:#0f3057
 }
 nav li:hover .sub-menu li{
-font-family: 'verdana';
 visibility:visible;
 overflow:visible;
 height:2em;line-height:2em; /* サブメニュー高さ */
@@ -237,13 +226,13 @@ font-size:2.7em;
 margin:0 0 0.5em
 }
 h2{
-font-family: 'verdana';
+font-family: Verdana;
 background:#0f4457;
 border-radius:6px;
 color:#c5dbe6;
 font-size: 17px;
 margin:1em 0;
-padding:10px;
+padding:9px;
 position:relative
 }
 h2::after{
@@ -256,7 +245,7 @@ height:0;width:0
 }
 h3{
 font-family: 'reactor';
-font-size: 23px;
+font-size: 21px;
 background:#668499;
 border-radius:3px;
 color:#0a1117;
