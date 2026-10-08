@@ -37,12 +37,6 @@
     font-family: "hor";
     src: url('/fonts/horrendo.woff');
 }
-
-@font-face {
-    font-family: "hor";
-    src: url('/fonts/horrendo.woff');
-}
-
        @font-face {
   font-family: 'green';
   src: url('/fonts/green_energy-webfont.woff');
