@@ -1,12 +1,52 @@
 @font-face {
     font-family: "euro";
-    src: url('https://wrygrinn.net/fonts/Eurosteal.woff');
+    src: url('/fonts/Eurosteal.woff');
 }
 
 @font-face {
     font-family: "reactor";
-    src: url('https://wrygrinn.net/fonts/Reactor7.woff');
+    src: url('/fonts/Reactor7.woff');
 }
+
+@font-face {
+    font-family: "unc";
+    src: url('/fonts/UNCLETYP.woff2');
+}
+
+@font-face {
+    font-family: "ocra";
+    src: url('/fonts/OCRA.woff');
+}
+
+@font-face {
+    font-family: "euro";
+    src: url('/fonts/Eurosteal.woff');
+}
+
+@font-face {
+    font-family: "carbon";
+    src: url('/fonts/carbon.woff');
+}
+
+@font-face {
+    font-family: "trash";
+    src: url('/fonts/TRASH.woff');
+}
+
+@font-face {
+    font-family: "hor";
+    src: url('/fonts/horrendo.woff');
+}
+
+@font-face {
+    font-family: "hor";
+    src: url('/fonts/horrendo.woff');
+}
+
+       @font-face {
+  font-family: 'green';
+  src: url('/fonts/green_energy-webfont.woff');
+      }
 * {
   cursor: url('https://cdn.cursors-4u.net/previews/silver-pointer-alternate-select-48fffd09-32.webp') 43 32, auto !important;
 }
@@ -578,4 +618,125 @@ animation: glow 2.0s linear infinite;
 
 .graphics {
     width: 81%;
+}
+
+/*font tags*/
+
+.font2 {
+    margin-top: -216px;
+    margin-left: 290px;
+}
+
+
+#times {
+    font-family: times;
+    color: #fff;
+}
+
+
+
+
+#reactor {
+    font-family: reactor;
+    color: #fff;
+
+}
+
+#reactor:hover {
+    font-family: reactor;
+    color: #aaa;
+}
+
+#unc {
+    font-family: unc;
+    color: #fff;
+
+}
+
+#unc:hover {
+    font-family: unc;
+    color: #aaa;
+}
+
+#ocra {
+    font-family: ocra;
+        color: #fff;
+
+}
+
+#ocra:hover {
+    font-family: ocra;
+    color: #aaa;
+}
+
+#verdana {
+    font-family: verdana;
+        color: #fff;
+}
+
+#euro {
+    font-family: euro;
+        color: #fff;
+
+}
+
+#euro:hover {
+    font-family: euro;
+    color: #aaa;
+}
+
+#carbon {
+    font-family: carbon;
+        color: #fff;
+
+}
+
+#carbon:hover {
+    font-family: carbon;
+    color: #aaa;
+}
+
+#trash {
+    font-family: trash;
+        color: #fff;
+    font-size: 30px;
+}
+
+#trash:hover {
+    font-family: trash;
+    color: #aaa;
+}
+
+#hor {
+    font-family: hor;
+        color: #fff;
+
+}
+
+#hor:hover {
+    font-family: hor;
+    color: #aaa;
+}
+
+#msui {
+    font-family: ms ui gothic; 
+            color: #fff;
+
+}
+
+#msg {
+    font-family: ms gothic;
+            color: #fff;
+
+}
+
+#energy {
+    font-family: green;
+    color: #fff;
+    font-size: 20px;
+}
+
+#energy:hover {
+    font-family: green;
+    color: #aaa;
 }
