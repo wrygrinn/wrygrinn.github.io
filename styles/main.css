@@ -239,7 +239,7 @@ color: #000;
             background-position: top;
             padding: 6px;
             width: 462px;
-            margin-left: 135px;
+            margin-left: 137px;
             margin-top: 5px;
             border-width: 1px;
             position:sticky;
@@ -442,12 +442,32 @@ fieldset {
             width: 195px;
             float: left;
             border-width: 1px;
-            margin-top: 322px;
-            margin-left: -464px;
+            margin-top: 294px;
+            margin-left: -463px;
             position: sticky;
             padding-top: 0px;
             padding: 5px;
-            height: 154px;
+            height: 177px;
+            font-size: 16px;
+            line-height: 14px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+           
+        }
+   
+
+                    .lmfao {
+            border-style: solid;
+            border-color: #760000;
+            width: 171px;
+            float: left;
+            border-width: 1px;
+            margin-top: 491px;
+            margin-left: -420px;
+            position: sticky;
+            padding-top: 0px;
+            padding: 5px;
+            height: 183px;
             font-size: 16px;
             line-height: 14px;
             overflow-y: hidden;
@@ -477,11 +497,11 @@ fieldset {
                    .bored {
             border-style: solid;
             border-color: #760000;
-            width: 233px;
+            width: 217px;
             float: left;
             border-width: 1px;
-            margin-top: 241px;
-            margin-left: 7px;
+            margin-top: 242px;
+            margin-left: 254px;
             position: sticky;
             background: #000;
             padding-top: 0px;
@@ -519,18 +539,18 @@ fieldset {
    .poop {
                 border-style: solid;
             border-color: #760000;
-            width: 203px;
+            width: 207px;
             float: left;
             border-width: 1px;
             margin-top: 224px;
-            margin-left: -475px;
+            margin-left: -476px;
             position: sticky;
             padding-top: 0px;
             padding: 5px;
-            height: 81px;
+            height: 51px;
             font-size: 16px;
             line-height: 14px;
-            overflow-y: scroll;
+            overflow-y: hidden;
             overflow-x: hidden;
 }
         
@@ -538,12 +558,12 @@ fieldset {
    .hi {
                 border-style: solid;
             border-color: #760000;
-            width: 341px;
+            width: 171px;
             float: left;
             image-rendering: pixelated;
             border-width: 1px;
-            margin-top: 275px;
-            margin-left: -119px;
+            margin-top: 492px;
+            margin-left: -607px;
             position: sticky;
             background: #000;
             padding-top: 0px;
@@ -603,17 +623,17 @@ fieldset {
         .artshowcase {
             border-style: solid;
             border-color: #760000;
-            width: 239px;
+            width: 237px;
             float: left;
-            margin-left: 358px;
+            margin-left: 364px;
             border-width: 1px;
-            margin-top: -463px;
+            margin-top: -462px;
             position: sticky;
             font-size: 12px;
             font-family: 'reactor';
             padding-top: 4px;
             padding: 5px;
-            height: 217px;
+            height: 213px;
         overflow-y: auto;
             overflow-x: hidden;
            
@@ -684,7 +704,7 @@ fieldset {
             border-width: 1px;
             font-size: 13px;
             padding: 5px;
-            height: 132px;
+            height: 129px;
             overflow-y: hidden;
  
         }
@@ -867,3 +887,12 @@ transform: translateX(2px);
     height: 0;
     overflow: hidden;
   }
+
+ws-widget {
+    height: 185px;
+    width: 171px;
+}
+
+powered-by a {
+    display: none;
+}
