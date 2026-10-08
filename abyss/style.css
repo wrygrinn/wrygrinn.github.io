@@ -623,7 +623,7 @@ animation: glow 2.0s linear infinite;
 
 
 #times {
-    font-family: times;
+    font-family: 'times';
     color: #fff;
 }
 
@@ -631,106 +631,105 @@ animation: glow 2.0s linear infinite;
 
 
 #reactor {
-    font-family: reactor;
+    font-family: 'reactor';
     color: #fff;
 
 }
 
 #reactor:hover {
-    font-family: reactor;
     color: #aaa;
 }
 
 #unc {
-    font-family: unc;
+    font-family: 'unc';
     color: #fff;
 
 }
 
 #unc:hover {
-    font-family: unc;
+    font-family: 'unc';
     color: #aaa;
 }
 
 #ocra {
-    font-family: ocra;
+    font-family: 'ocra';
         color: #fff;
 
 }
 
 #ocra:hover {
-    font-family: ocra;
+    font-family: 'ocra';
     color: #aaa;
 }
 
 #verdana {
-    font-family: verdana;
+    font-family: 'verdana';
         color: #fff;
 }
 
 #euro {
-    font-family: euro;
+    font-family: 'euro';
         color: #fff;
 
 }
 
 #euro:hover {
-    font-family: euro;
+    font-family: 'euro';
     color: #aaa;
 }
 
 #carbon {
-    font-family: carbon;
+    font-family: 'carbon';
         color: #fff;
 
 }
 
 #carbon:hover {
-    font-family: carbon;
+    font-family: 'carbon';
     color: #aaa;
 }
 
 #trash {
-    font-family: trash;
+    font-family: 'trash';
         color: #fff;
     font-size: 30px;
 }
 
 #trash:hover {
-    font-family: trash;
+    font-family: 'trash';
     color: #aaa;
 }
 
 #hor {
-    font-family: hor;
+    font-family: 'hor';
         color: #fff;
 
 }
 
 #hor:hover {
-    font-family: hor;
+    font-family: 'hor';
     color: #aaa;
 }
 
 #msui {
-    font-family: ms ui gothic; 
+    font-family: 'ms ui gothic'; 
             color: #fff;
 
 }
 
 #msg {
-    font-family: ms gothic;
+    font-family: 'ms gothic';
             color: #fff;
 
 }
 
 #energy {
-    font-family: green;
+    font-family: 'green';
     color: #fff;
     font-size: 20px;
 }
 
 #energy:hover {
-    font-family: green;
+    font-family: 'green';
     color: #aaa;
 }
