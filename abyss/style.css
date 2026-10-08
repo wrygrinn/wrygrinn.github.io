@@ -614,6 +614,12 @@ animation: glow 2.0s linear infinite;
     width: 81%;
 }
 
+
+::selection {
+background-color: #ddd;
+color: #000;
+}
+
 /*font tags*/
 
 .font2 {
