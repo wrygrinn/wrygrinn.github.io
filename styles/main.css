@@ -891,6 +891,7 @@ transform: translateX(2px);
 ws-widget {
     height: 185px;
     width: 171px;
+	cursor: crosshair;
 }
 
 powered-by a {
