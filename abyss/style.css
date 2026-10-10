@@ -41,6 +41,12 @@
   font-family: 'green';
   src: url('/fonts/green_energy-webfont.woff');
       }
+
+@font-face {
+font-family: 'smash';
+src: url('/fonts/smash.woff');
+      }
+
 * {
   cursor: url('https://cdn.cursors-4u.net/previews/silver-pointer-alternate-select-48fffd09-32.webp') 43 32, auto !important;
 }
