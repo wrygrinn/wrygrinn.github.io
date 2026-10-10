@@ -739,3 +739,14 @@ color: #000;
     font-family: 'green';
     color: #aaa;
 }
+
+#smash {
+    font-family: 'smash';
+    color: #fff;
+    font-size: 20px;
+}
+
+#smash:hover {
+    font-family: 'smash';
+    color: #aaa;
+}
