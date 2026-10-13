@@ -21,7 +21,7 @@ ul,li{list-style-type:none}
 html{
 min-height:100%;
 position:relative;
-font-size:62.5%
+font-size:62.8%
 }
 body{
 background: #000;
@@ -38,7 +38,7 @@ word-wrap:break-word
 p {
     font-family: 'reactor';
     color:#c9ecef;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 li {
@@ -83,13 +83,13 @@ padding:10px
 #contents{
 margin:0 auto;
 height:100%;
-width:85%; 
+width: 1000px; 
 }
 /* 左側 */
 #leftcolumn{
 float:left;
 text-align:left;
-width:300px
+width:293px
 }
 /* 右側 */
 #rightcolumn{
