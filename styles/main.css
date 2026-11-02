@@ -1,10 +1,3 @@
-
-* {
-    filter: contrast(1.03);
-
-}
-
-
 html {
             background-image: url();
             background-attachment: fixed;
@@ -25,21 +18,21 @@ margin: auto;
 
 
         .contain {
-            width: 801px;
+            width: 821px;
             height: 859px;
             padding: 5px;
             margin: auto;
-            filter: grayscale(0.44);
+            filter: grayscale(0.44) contrast(1.12);
             margin-top: -2px;
             position: sticky;
             background-color: #000;
             border: solid 1px #470000;
 
         }
-                       .deco {
-                    position: fixed;
-                    margin-left: -4px;
-                   top: 58px;
+     .deco {
+        position: fixed;
+        margin-left: -4px;
+         top: 58px;
         }
         
 
@@ -238,7 +231,7 @@ color: #000;
             background-image: url();
             background-position: top;
             padding: 6px;
-            width: 462px;
+            width: 473px;
             margin-left: 137px;
             margin-top: 5px;
             border-width: 1px;
@@ -291,10 +284,10 @@ h3 {
 
         .about {
             background-color: #000;
-            width: 460px;
+            width: 471px;
             margin-left: 10px;
-            margin-top: -13px;
-            height: 214.9px;
+            margin-top: -12px;
+            height: 215px;
             float: left;
             position:sticky;
             padding: 7px;
@@ -439,11 +432,11 @@ fieldset {
         .linkme {
             border-style: solid;
             border-color: #760000;
-            width: 195px;
+            width: 205px;
             float: left;
             border-width: 1px;
             margin-top: 294px;
-            margin-left: -463px;
+            margin-left: -473px;
             position: sticky;
             padding-top: 0px;
             padding: 5px;
@@ -463,7 +456,7 @@ fieldset {
             float: left;
             border-width: 1px;
             margin-top: 491px;
-            margin-left: -420px;
+            margin-left: -408px;
             position: sticky;
             padding-top: 0px;
             padding: 5px;
@@ -497,11 +490,11 @@ fieldset {
                    .bored {
             border-style: solid;
             border-color: #760000;
-            width: 217px;
+            width: 215px;
             float: left;
             border-width: 1px;
             margin-top: 242px;
-            margin-left: 254px;
+            margin-left: 276px;
             position: sticky;
             background: #000;
             padding-top: 0px;
@@ -522,8 +515,8 @@ fieldset {
             width: 172px;
             float: left;
             border-width: 1px;
-            margin-top: -731px;
-            margin-left: 618px;
+            margin-top: -739px;
+            margin-left: 632px;
             position: sticky;
             background: #000;
             padding-top: 0px;
@@ -539,11 +532,11 @@ fieldset {
    .poop {
                 border-style: solid;
             border-color: #760000;
-            width: 207px;
+            width: 216px;
             float: left;
             border-width: 1px;
             margin-top: 224px;
-            margin-left: -476px;
+            margin-left: -485px;
             position: sticky;
             padding-top: 0px;
             padding: 5px;
@@ -558,17 +551,14 @@ fieldset {
    .hi {
                 border-style: solid;
             border-color: #760000;
-            width: 171px;
+            width: 196px;
             float: left;
-            image-rendering: pixelated;
             border-width: 1px;
-            margin-top: 492px;
-            margin-left: -607px;
+            margin-top: 491px;
+            margin-left: -620px;
             position: sticky;
-            background: #000;
-            padding-top: 0px;
             padding: 5px;
-            height: 182px;
+            height: 226px;
             font-size: 16px;
             line-height: 14px;
             overflow-y: hidden;
@@ -625,15 +615,15 @@ fieldset {
             border-color: #760000;
             width: 237px;
             float: left;
-            margin-left: 364px;
+            margin-left: 372px;
             border-width: 1px;
-            margin-top: -462px;
+            margin-top: -461px;
             position: sticky;
             font-size: 12px;
             font-family: 'reactor';
             padding-top: 4px;
             padding: 5px;
-            height: 213px;
+            height: 216px;
         overflow-y: auto;
             overflow-x: hidden;
            
@@ -651,7 +641,7 @@ fieldset {
             border-color: #760000;
             width: 172px;
             float: left;
-            margin-left: 618px;
+            margin-left: 635px;
             border-width: 1px;
             margin-top: -79px;
             position: sticky;
@@ -673,9 +663,9 @@ fieldset {
             width: 172px;
             float: left;
             position: sticky;
-            margin-left: 618px;
+            margin-left: 635px;
             border-width: 1px;
-            margin-top: -334px;
+            margin-top: -339px;
             padding-top: 4px;
             padding: 5px;
             height: 239px;
@@ -692,15 +682,15 @@ fieldset {
    
 
 
-      .themes {
+      .ad {
             border-style: solid;
             border-color: #760000;
-            width: 125px;
+            width: 130px;
             float: left;
             position: sticky;
             font-family: 'reactor';
-            margin-left: -607px;
-            margin-top: 342px;
+            margin-left: -619px;
+            margin-top: 341px;
             border-width: 1px;
             font-size: 13px;
             padding: 5px;
@@ -732,10 +722,10 @@ fieldset {
             width: 182px;
             float: left;
             position: sticky;
-            margin-top: -631px;
+            margin-top: -637px;
             background: #000;
             font-size: 13px;
-            margin-left: 618px;
+            margin-left: 635px;
             height: 290px;
             
 }
