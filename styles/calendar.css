@@ -1,0 +1,76 @@
+#calendar {
+width: 100%;
+font-size: 13px;
+text-shadow: none;
+color: #e4e4e4;
+cursor: crosshair;
+font-family: "reactor";
+}
+.cal-header {
+display: flex;
+justify-content: space-between;
+margin-bottom: 3px;
+letter-spacing: 2px;
+color: #e4e4e4;
+font-size: 13px;
+background: linear-gradient(to bottom, #303030, #000);
+padding: 2px;
+border: 1px solid #393939;
+
+}
+.cal-header button {
+background:transparent;
+border: none;
+padding: 1px 6px;
+font-size: 14px;
+color:#d8d8d8;
+font-weight: bold;
+}
+.cal-header button:hover {
+color: #99a2ff;
+}
+.cal-grid {
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+gap: 3px;
+text-align: center;
+}
+.cal-grid div {
+aspect-ratio: 1 / 1;
+display: flex;
+align-items: center; 
+justify-content: center;
+border: 1px solid #393939;
+background: linear-gradient(to bottom, #303030, #000);
+padding-top: 1px;
+}
+.cal-grid div:nth-child(-n+7) {
+background: linear-gradient(to bottom, #303030, #000);
+border: 1px solid #393939;
+outline-offset: -4px;
+}
+.has-post {
+background: linear-gradient(to bottom, #444, #000) !important;
+border: 2px  #999 solid !important;
+}
+.has-post a {
+color: #e8e8e8;
+text-decoration: none;
+}
+.has-post:hover {
+background: #f3f5f7;
+cursor: help;
+text-decoration: line-through;
+background: linear-gradient(to top, #000, #888) !important;
+border: 1px solid #b4c0d9;
+}
+
+.cal-header {
+align-items: center;
+}
+.today {
+color: #fff;
+font-weight: normal;
+background: linear-gradient(to top, #566, #262626) !important;
+border: 1px #fff;
+}
