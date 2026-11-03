@@ -14,7 +14,7 @@ function renderCalendar() {
 
   const today = new Date();
   const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
-  const posts = {"2026-10-03":"https://wrygrinn.net/blog/"};
+  const posts = {"2026-10-03":"blog/index.html"};
   let html = `
   <div class="cal-header">
     <button id="prev">⇽</button>
